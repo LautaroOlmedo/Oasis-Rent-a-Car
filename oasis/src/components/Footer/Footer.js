@@ -7,7 +7,12 @@ function Footer() {
     <>
       <div className='footerContainer'>
         <img className='logo' src={blancoOasis} alt="logo" />
+        <div>
+          <h2>hola</h2>
+        </div>
+
       </div>
+      
     </>
   )
 }
