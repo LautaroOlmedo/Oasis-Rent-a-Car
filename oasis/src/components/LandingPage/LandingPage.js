@@ -2,6 +2,7 @@ import React from 'react'
 import './LandingPage.css'
 import homeVideo from '../../media/homeVideo.mp4'
 import Footer from '../Footer/Footer'
+import {Link} from 'react-router-dom'
 
 function LandingPage() {
   return (
@@ -11,9 +12,9 @@ function LandingPage() {
         <h1>OASIS</h1>
         <p>ALQUILER DE AUTOS EN MENDOZA</p>
         <div>
-        <button>HOME</button>
-        <button>LEGAL</button>
-        <button>HOME</button>
+        <Link to={'/home'}><button type="button" class="btn btn-dark">INICIO</button></Link>
+        <Link to={'/home'}><button type="button" class="btn btn-dark">SOBRE NOSOTROS</button></Link>
+        <Link to={'/home'}><button type="button" class="btn btn-dark">LEGAL</button></Link>
         </div>
       </div>
       <Footer />
