@@ -1,7 +1,84 @@
 [
     
 {
-
+  "chevrolet onix": "Chevrolet Onix",
+  "aire": "aire",
+  "direccion hidraulica": "dirección hidrulica",
+  "levanta cristales": "levanta cristales",
+  "4 puertas": "4 puertas",
+  "5 pasajeros": "5 pasajeros",
+  "Stereo": "Stereo",
+  "bluetooth": "bluetooth",
+  "silla para bebe": "silla para bebé"
+},
+{
+  "fiat cronos": "Fiat Cronos",
+  "aire": "aire",
+  "direccion hidraulica":"dirección hidrulica",
+  "alarma con cierre centralizado": "alarma con cierre centralizado",
+  "levanta cristales":"levanta cristales",
+  "4 puertas": "4 puertas",
+  "5 pasajeros": "5 pasajeros",
+  "baul amplio": "baúl amplio",
+  "Stereo": "Stereo",
+  "bluetooth": "bluetooth",
+  "gps": "gps",
+  "silla para bebe": "silla para bebé"
+},
+{
+  "volkswagen suran": "Volkswagen Suran",
+  "aire": "aire",
+  "direccion hidraulica":"dirección hidrulica",
+  "alarma con cierre centralizado":"alarma con cierre centralizado",
+  "levanta cristales":"levanta cristales",
+  "4 puertas":"4 puertas",
+  "5 pasajeros":"5 pasajeros",
+  "baul amplio":"baúl amplio",
+  "silla para bebe": "silla para bebé"
+},
+{
+  "ford ecosport": "Ford Ecosport",
+  "aire":"aire",
+  "direccion hidraulica":"dirección hidrulica",
+  "alarma con cierre centralizado":"alarma con cierre centralizado",
+  "levanta cristales":"levanta cristales",
+  "4 puertas":"4 puertas",
+  "5 pasajeros":"5 pasajeros",
+  "baul amplio":"baúl amplio",
+  "Stereo":"Stereo",
+  "bluetooth":"bluetooth",
+  "gps":"gps",
+  "silla para bebe": "silla para bebé"
+},
+{
+  "fiat toro": "Fiat Toro",
+  "caja automatica": "caja automática",
+  "4x4": "4x4",
+  "aire":"aire",
+  "direccion hidraulica":"dirección hidrulica",
+  "alarma con cierre centralizado":"alarma con cierre centralizado",
+  "levanta cristales":"levanta cristales",
+  "4 puertas":"4 puertas",
+  "5 pasajeros":"5 pasajeros",
+  "Stereo":"Stereo",
+  "bluetooth":"bluetooth",
+  "gps":"gps",
+  "silla para bebe": "silla para bebé"
+},
+{
+  "nombre": "Volkswagen Amarok",
+  "caja automatica": "caja automática",
+  "4x4": "4x4",
+  "aire":"aire",
+  "direccion hidraulica":"dirección hidrulica",
+  "alarma con cierre centralizado":"alarma con cierre centralizado",
+  "levanta cristales":"levanta cristales",
+  "4 puertas":"4 puertas",
+  "5 pasajeros":"5 pasajeros",
+  "Stereo":"Stereo",
+  "bluetooth":"bluetooth",
+  "gps":"gps",
+  "silla para bebe": "silla para bebé"
 }
 
 ]

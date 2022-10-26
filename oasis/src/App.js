@@ -1,10 +1,9 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-
-import Footer from './components/Footer/Footer';
-//import Home from './components/LandingPage/Home';
-import NavBar from './components/NavBar/NavBar';
+// import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
+// import NavBar from './components/NavBar/NavBar';
 import LandingPage from './components/LandingPage/LandingPage';
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
   <div>
     <Routes>
       <Route path='/' element={<LandingPage />}></Route>
-      {/* <Route path='/home' element={<Home />}></Route> */}
+      <Route path='/home' element={<Home />}></Route>
     </Routes>
   </div>
    
