@@ -4,7 +4,7 @@ import './AboutUs.css'
 
 function AboutUs() {
   return (
-    <div>
+    <div className='contenedorSobreNosotros'>
       AboutUs
       <Footer />
     </div>

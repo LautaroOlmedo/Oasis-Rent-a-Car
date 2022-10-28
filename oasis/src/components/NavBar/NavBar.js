@@ -1,13 +1,16 @@
 import React from 'react'
 import './NavBar.css'
-import blancoOasis from '../../media/blancoOasis.png'
+import negroOasis from '../../media/negroOasis.png'
 
 function NavBar() {
   return (
     <>
-      <div className='navbar'>
-        <img className='navbar-logo' src={blancoOasis} alt="logo" />
-      </div>
+      <header className='navbar'>
+        <img className='navbar-logo' src={negroOasis} alt="logo" />
+        <nav>
+          
+        </nav>
+      </header>
     </>
   )
 }
