@@ -8,7 +8,7 @@ function Footer() {
       <footer className='footerContainer'>
         <div className="footerInfo">
           <h1>OASIS</h1>
-          <p>Ciudad</p>
+          <p>Alquiler de autos texto texto texto</p>
         </div>
         <div className="footerContact">
           <h3>Contactos</h3>
@@ -27,6 +27,9 @@ function Footer() {
             </a>
             <a href="https://www.google.com/" target="_blank" rel='noreferrer'>
               <i>Twitter</i>
+            </a>
+            <a href="https://www.google.com/" target="_blank" rel='noreferrer'>
+              <i>WhatsApp</i>
             </a>
           </div>
         </div>
