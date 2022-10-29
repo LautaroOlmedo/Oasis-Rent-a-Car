@@ -1,6 +1,10 @@
 import React from 'react'
 import './NavBar.css'
 import negroOasis from '../../media/negroOasis.png'
+import AboutUs from '../AboutUs/AboutUs'
+import Contacts from '../Contacts/Contacts'
+import { Link } from 'react-router-dom'
+import Questions from '../Questions/Questions'
 
 function NavBar() {
   return (
@@ -12,19 +16,25 @@ function NavBar() {
         </div>
         <ul className="menu">
           <li className="menuItem">
-            <a href="https://www.google.com/" className="menuItemLink">
-              CONTACTO
-            </a>
+            <Link to={'/home/contacts'}>
+              <a href={<Contacts />}>
+                CONTACTO
+              </a>
+            </Link>
+          </li>
+          <li>
+            <Link to={'/home/aboutUs'}>
+              <a href={<AboutUs />} >
+                SOBRE NOSOTROS
+              </a>
+            </Link>
           </li>
           <li className="menuItem">
-            <a href="https://www.google.com/" className="menuItemLink">
-              SOBRE NOSOTROS
-            </a>
-          </li>
-          <li className="menuItem">
-            <a href="https://www.google.com/" className="menuItemLink">
-              PREGUNTAS FRECUENTES
-            </a>
+            <Link to={'/home/questions'}>
+              <a href={<Questions />}>
+                PREGUNTAS FRECUENTES
+              </a>
+            </Link>
           </li>
         </ul>
       </div>
