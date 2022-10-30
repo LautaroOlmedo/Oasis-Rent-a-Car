@@ -12,7 +12,7 @@ function Cards() {
           return(
             <div key={index} className="col mb-5">
               <center>
-                <div className="card" style={{height: '590px', width: '330px'}}>
+                <div className="card" style={{height: '590px', width: '330px', background: 'gold', borderRadius: 100}}>
                   <div className="card-body">
                     <h3 className="card-title">{el.nombre}</h3>
                     <hr />
@@ -37,7 +37,7 @@ function Cards() {
                                         {
                       el.tipo ? <p>{el.tipo}: Si</p> : null
                     }
-                    <hr />
+                    
                   </div>
                 </div>
               </center>
