@@ -1,5 +1,9 @@
 import React from 'react'
 import './Footer.css'
+// import instagram from '../../media/instagram.png'
+// import twitter from '../../media/twitter.png'
+// import whatsapp from '../../media/whatsapp.png'
+// import facebook from '../../media/facebook.png'
 // import blancoOasis from '../../media/blancoOasis.png'
 
 function Footer() {
@@ -20,16 +24,16 @@ function Footer() {
           </div>
           <div className='footerLinks'>
             <a href="https://www.google.com/" target="_blank" rel='noreferrer'>
-              <i>Instagram</i>
+              <i>instagram</i>
             </a>
             <a href="https://www.google.com/" target="_blank" rel='noreferrer'>
-              <i>Facebook</i>
+              <i>facebook</i>
             </a>
             <a href="https://www.google.com/" target="_blank" rel='noreferrer'>
-              <i>Twitter</i>
+              <i>twitter</i>
             </a>
-            <a href="https://www.google.com/" target="_blank" rel='noreferrer'>
-              <i>WhatsApp</i>
+            <a href="https://api.whatsapp.com/send?phone=+5492610000000" target="_blank" rel='noreferrer'>
+              <i>whatsapp</i>
             </a>
           </div>
         </div>
