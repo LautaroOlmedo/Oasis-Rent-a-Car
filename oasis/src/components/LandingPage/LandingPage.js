@@ -15,13 +15,13 @@ function LandingPage() {
         </div>
         <div className='contenedorBotones'>
           <Link to={'/home'}>
-            <button type="button" class="btn btn-dark">INICIO</button>
+            <button type="button" className="btn btn-dark">INICIO</button>
           </Link>
           <Link to={'/aboutUs'}>
-            <button type="button" class="btn btn-dark">SOBRE NOSOTROS</button>
+            <button type="button" className="btn btn-dark">SOBRE NOSOTROS</button>
           </Link>
           <Link to={'/legal'}>
-            <button type="button" class="btn btn-dark">LEGAL</button>
+            <button type="button" className="btn btn-dark">LEGAL</button>
           </Link>
         </div>
       </div>
