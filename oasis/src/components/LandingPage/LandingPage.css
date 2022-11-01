@@ -6,7 +6,7 @@
   height: 75vh;
   width: 100%;
   object-fit: contain;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .3);
 }
 
 .video {
@@ -17,16 +17,26 @@
   z-index: -1;
 }
 
-.homeContainer > h1 {
+.contenedorImagen {
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.contenedorImagen img {
+  height: 100%;
+}
+
+/* .homeContainer > h1 {
   font-size: 80px;
   color: #fff;
 }
 
 .homeContainer > h1::selection {
   background: none;
-}
+} */
 
-.homeContainer > p {
+/* .homeContainer > p {
   font-size: 28px;
   margin-top: 10px;
   color: #fff;
@@ -34,6 +44,10 @@
 
 .homeContainer > p::selection {
   background: none;
+} */
+
+.contenedorBotones {
+  margin-top: -50px;
 }
 
 .btn {
