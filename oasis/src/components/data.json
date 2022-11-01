@@ -1,0 +1,86 @@
+[
+    
+{
+  "nombre": "Chevrolet Onix",
+  "aire": "Aire acondicionado",
+  "direccion": "Dirección hidrulica",
+  "cristales": "Levanta cristales",
+  "puertas": "4 puertas",
+  "pasajeros": "5 pasajeros",
+  "Stereo": "Stereo",
+  "bluetooth": "Bluetooth",
+  "adicional": "Silla para bebé"
+},
+{
+  "nombre": "Fiat Cronos",
+  "aire": "Aire acondicionado",
+  "direccion":"Dirección hidrulica",
+  "alarma": "Alarma con cierre centralizado",
+  "cristales":"Levanta cristales",
+  "puertas": "4 puertas",
+  "pasajeros": "5 pasajeros",
+  "baul": "Baúl amplio",
+  "Stereo": "Stereo",
+  "bluetooth": "Bluetooth",
+  "gps": "Gps",
+  "adicional": "Silla para bebé"
+},
+{
+  "nombre": "Volkswagen Suran",
+  "aire": "Aire acondicionado",
+  "direccion":"Dirección hidrulica",
+  "alarma":"Alarma con cierre centralizado",
+  "cristales":"Levanta cristales",
+  "puertas":"4 puertas",
+  "pasajeros":"5 pasajeros",
+  "baul":"Baúl amplio",
+  "bluetooth":"Bluetooth",
+  "Stereo":"Stereo",
+  "adicional": "Silla para bebé"
+},
+{
+  "nombre": "Ford Ecosport",
+  "aire":"Aire acondicionado",
+  "direccion":"Dirección hidrulica",
+  "alarma":"Alarma con cierre centralizado",
+  "cristales":"Levanta cristales",
+  "puertas":"4 puertas",
+  "pasajeros":"5 pasajeros",
+  "baul":"Baúl amplio",
+  "Stereo":"Stereo",
+  "bluetooth":"Bluetooth",
+  "gps":"Gps",
+  "adicional": "Silla para bebé"
+},
+{
+  "nombre": "Fiat Toro",
+  "caja": "Caja automática",
+  "tipo": "4x4",
+  "aire":"Aire acondicionado",
+  "direccion":"Dirección hidrulica",
+  "alarma":"Alarma con cierre centralizado",
+  "cristales":"Levanta cristales",
+  "puertas":"4 puertas",
+  "pasajeros":"5 pasajeros",
+  "Stereo":"Stereo",
+  "bluetooth":"Bluetooth",
+  "gps":"Gps",
+  "adicional": "Silla para bebé"
+},
+{
+  "nombre": "Volkswagen Amarok",
+  "caja": "Caja automática",
+  "tipo": "4x4",
+  "aire":"Aire acondicionado",
+  "direccion":"Dirección hidrulica",
+  "alarma":"Alarma con cierre centralizado",
+  "cristales":"Levanta cristales",
+  "puertas":"4 puertas",
+  "pasajeros":"5 pasajeros",
+  "Stereo":"Stereo",
+  "bluetooth":"Bluetooth",
+  "gps":"Gps",
+  "adicional": "Silla para bebé"
+}
+
+]
