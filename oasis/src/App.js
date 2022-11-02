@@ -8,6 +8,13 @@ import Home from './components/Home/Home';
 import LandingPage from './components/LandingPage/LandingPage';
 import Legal from './components/Legal/Legal';
 import Questions from './components/Questions/Questions';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+
+library.add(fab, faCheckSquare, faCoffee, fas)
 
 function App() {
   return (

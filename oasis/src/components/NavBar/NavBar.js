@@ -1,5 +1,6 @@
 import React from 'react'
 import './NavBar.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import AboutUs from '../AboutUs/AboutUs'
 import { Link } from 'react-router-dom'
@@ -9,8 +10,11 @@ import Questions from '../Questions/Questions'
 function NavBar() {
   return (
 <ul class="nav bg-dark">
+<FontAwesomeIcon icon="fa-brands fa-whatsapp"  className='h2 mt-3 ms-3' style={{ color: 'DodgerBlue' }} />
+
   <li class="nav-item ">
-    <a class="text-white nav-link active top-0 start-50 mt-3" aria-current="page" href="#">WhatsApp +54 (9) 2610000000</a>
+  <a class="text-white nav-link active top-0 start-50 mt-3" aria-current="page" href="#">WhatsApp +54 (9) 2610000000</a>
+    
   </li>
   <li class="nav-item">
     <a class="text-white nav-link mt-3" href="#">Sobre Nosotros</a>
