@@ -1,0 +1,11 @@
+.fondo{
+    width: 100%;
+    height: 100vh;
+    background: url(LandingPageFondo.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fondo2{
+    background: url(negroOasis.png);
+}

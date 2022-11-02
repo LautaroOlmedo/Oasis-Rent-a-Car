@@ -1,19 +1,23 @@
 import React from 'react'
 import './LandingPage.css'
-import homeVideo from '../../media/homeVideo.mp4'
 import Footer from '../Footer/Footer'
 import {Link} from 'react-router-dom'
+import NavBar from '../NavBar/NavBar'
+import LandingPageFondo from '../../media/LandingPageFondo.jpeg'
 import negroOasis from '../../media/negroOasis.png'
 
 function LandingPage() {
   return (
     <>
-      <div className='homeContainer'>
-        <video className='video' src={homeVideo} autoPlay loop muted />
+    <NavBar/>
+    <img class='video' src={LandingPageFondo} alt="logo" />
+         
+    <img src={negroOasis} alt="logo" />
+          
+      {/* <div className='homeContainer'>
         <div className='contenedorImagen'>
-          <img src={negroOasis} alt="imagen" />
         </div>
-        <div className='contenedorBotones'>
+        <div class='btn-group'>
           <Link to={'/home'}>
             <button type="button" className="btn btn-dark">INICIO</button>
           </Link>
@@ -24,7 +28,7 @@ function LandingPage() {
             <button type="button" className="btn btn-dark">LEGAL</button>
           </Link>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </>
   )

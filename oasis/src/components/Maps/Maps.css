@@ -1,8 +1,10 @@
 .map-container {
-  width: 100%;
+  width: 80%;
   height: 500px;
+  margin-left: 10%;
 }
 
 .ubicacion h2 {
-  color: #fff;
+  color: rgb(2, 2, 2);
+  margin-left: 10%;
 }

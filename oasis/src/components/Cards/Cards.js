@@ -6,13 +6,13 @@ function Cards() {
   const data1 = data
 
   return (
-    <div className="row cardInicio">
+    <div className="row">
       {
         data1 && data1.map((el, index) => {
           return(
             <div key={index} className="col mb-5">
               <center>
-                <div className="card" style={{height: '590px', width: '330px', background: 'gold', borderRadius: 100}}>
+                <div className="card" style={{height: '590px', width: '330px', background: 'white'}}>
                   <div className="card-body">
                     <h3 className="card-title">{el.nombre}</h3>
                     <hr />
@@ -45,6 +45,7 @@ function Cards() {
         )})    
       }  
     </div>
+    
   )
 }
 

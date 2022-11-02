@@ -6,16 +6,28 @@ import NavBar from '../NavBar/NavBar'
 import Reviews from '../Reviews/Reviews'
 import './Home.css'
 import animals from '../../media/animals.jpeg'
+import negroOasis from '../../media/negroOasis.png'
+import petFriendly from '../Home/petFriendly.png'
+
 function Home() {
 
   return (
-    <div className='inicio'>
+    
+    <div class='bg-home'>
       <NavBar />
-      <Cards />
-      <center>
       <div>
-        <img src={animals} class="img-thumbnail" alt="not found" height={400} width={500}></img>
+      <hr/>
+      <img src={negroOasis} class="card-img-top w-25 ms-5 top-0 start-50 mt-1" alt="..."/>
+      {<Cards />}
+      <center >
+      <div class="card w-50" >
+        <img src={petFriendly} class="card-img-top" alt="..."/>
+       
+      </div>
+      {/* <div >
+        <img src={animals} class="img-thumbnail" alt="not found" height={400} width={350}></img>
         <br />
+        
         <div style={{fontSize: 25}}>
          <p>Amamos y disfrutamos la compañía de los animales, podes llevarlo con vos!!,
            Amamos y disfrutamos la compañía de los animales, podes llevarlo con vos!!
@@ -23,16 +35,18 @@ function Home() {
       
           </p>
         </div>
-      </div>
+      </div> */}
       </center>
+      </div>
       <center>
         
       </center>
-      <Reviews />
+      {/* <Reviews /> */}
       <Maps />
+    
       <Footer />
-    </div>
-  )
-}
+      </div>
+      )
+    }
 
 export default Home
