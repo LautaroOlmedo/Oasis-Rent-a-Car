@@ -16,14 +16,20 @@ function Home() {
     <div class='bg-home'>
       <NavBar />
       <div>
-      <hr/>
+     
       <img src={negroOasis} class="card-img-top w-25 ms-5 top-0 start-50 mt-1" alt="..."/>
       {<Cards />}
+      
       <center >
       <div class="card w-50" >
         <img src={petFriendly} class="card-img-top" alt="..."/>
-       
+  
       </div>
+      <h5 style={{fontSize: '25px', margin: '20px 0'}}>
+        En Oasis creemos que los animales son un integrante más de la familia, por eso
+        podes llevarlo donde vayas con vos!
+       </h5>
+       
       {/* <div >
         <img src={animals} class="img-thumbnail" alt="not found" height={400} width={350}></img>
         <br />

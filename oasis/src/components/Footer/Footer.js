@@ -21,8 +21,8 @@ function Footer() {
           <h5 className='text-uppercase font-weight-light'>
             Contactos
           </h5>
-          <p>0800-1234-0000</p>
-          <p>oasis@gmail.com</p>
+          <p>+54 9 2617 74-3816</p>
+          <p>oasisrentacarmza@gmail.com</p>
           
         </div>
       </div>

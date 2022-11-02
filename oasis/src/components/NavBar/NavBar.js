@@ -10,7 +10,7 @@ function NavBar() {
   return (
 <ul class="nav bg-dark">
   <li class="nav-item ">
-    <a class="text-white nav-link active top-0 start-50 mt-3" aria-current="page" href="#">WhatsApp +54 (9) 2610000000</a>
+    <a class="text-white nav-link active top-0 start-50 mt-3" aria-current="page" href="#">WhatsApp +54 9 2617 74-3816</a>
   </li>
   <li class="nav-item">
     <a class="text-white nav-link mt-3" href="#">Sobre Nosotros</a>

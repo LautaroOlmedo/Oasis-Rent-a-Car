@@ -1,17 +1,25 @@
+
 [
     
 {
+
+  "id": 1,
   "nombre": "Chevrolet Onix",
   "aire": "Aire acondicionado",
   "direccion": "Dirección hidrulica",
   "cristales": "Levanta cristales",
   "puertas": "4 puertas",
   "pasajeros": "5 pasajeros",
+  "baul":"Baúl amplio",
   "Stereo": "Stereo",
   "bluetooth": "Bluetooth",
+  "image": "C:/Users/Lautaro.DESKTOP-PFAUVN7/Desktop/Oasis Rent a Car/Oasis-Rent-a-Car/oasis/src/media/fiat-cronos.jpg",
   "adicional": "Silla para bebé"
+
 },
 {
+
+  "id": 2,
   "nombre": "Fiat Cronos",
   "aire": "Aire acondicionado",
   "direccion":"Dirección hidrulica",
@@ -24,8 +32,11 @@
   "bluetooth": "Bluetooth",
   "gps": "Gps",
   "adicional": "Silla para bebé"
+
 },
 {
+
+  "id": 3,
   "nombre": "Volkswagen Suran",
   "aire": "Aire acondicionado",
   "direccion":"Dirección hidrulica",
@@ -37,8 +48,11 @@
   "bluetooth":"Bluetooth",
   "Stereo":"Stereo",
   "adicional": "Silla para bebé"
+
 },
 {
+
+  "id": 4,
   "nombre": "Ford Ecosport",
   "aire":"Aire acondicionado",
   "direccion":"Dirección hidrulica",
@@ -51,8 +65,11 @@
   "bluetooth":"Bluetooth",
   "gps":"Gps",
   "adicional": "Silla para bebé"
+
 },
 {
+
+  "id": 5,
   "nombre": "Fiat Toro",
   "caja": "Caja automática",
   "tipo": "4x4",
@@ -62,12 +79,16 @@
   "cristales":"Levanta cristales",
   "puertas":"4 puertas",
   "pasajeros":"5 pasajeros",
+  "baul":"Baúl amplio",
   "Stereo":"Stereo",
   "bluetooth":"Bluetooth",
   "gps":"Gps",
   "adicional": "Silla para bebé"
+
 },
 {
+
+  "id": 6,
   "nombre": "Volkswagen Amarok",
   "caja": "Caja automática",
   "tipo": "4x4",
@@ -77,10 +98,12 @@
   "cristales":"Levanta cristales",
   "puertas":"4 puertas",
   "pasajeros":"5 pasajeros",
+  "baul":"Baúl amplio",
   "Stereo":"Stereo",
   "bluetooth":"Bluetooth",
   "gps":"Gps",
   "adicional": "Silla para bebé"
+
 }
 
 ]
