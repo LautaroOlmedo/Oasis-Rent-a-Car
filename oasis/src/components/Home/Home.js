@@ -16,8 +16,8 @@ function Home() {
     <div class='bg-home'>
       <NavBar />
       <div>
-      <hr/>
       <img src={negroOasis} class="card-img-top w-25 ms-5 top-0 start-50 mt-1" alt="..."/>
+
       {<Cards />}
       <center >
       <div class="card w-50" >
