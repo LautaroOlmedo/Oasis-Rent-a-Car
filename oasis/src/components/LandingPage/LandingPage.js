@@ -10,10 +10,16 @@ function LandingPage() {
   return (
     <>
     <NavBar/>
-    <img class='video' src={LandingPageFondo} alt="logo" />
-         
-    <img src={negroOasis} alt="logo" />
-          
+    {/* <img class='video' src={LandingPageFondo} alt="logo" /> */}
+    <div class='img-fluid d-flex'>
+      <div class='video'>
+    </div>
+    
+
+    </div>
+        <div class='img-fluid d-flex'> 
+         <img src={negroOasis} alt="logo" />
+        </div>
       {/* <div className='homeContainer'>
         <div className='contenedorImagen'>
         </div>

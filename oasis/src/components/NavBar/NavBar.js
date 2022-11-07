@@ -10,7 +10,7 @@ import Questions from '../Questions/Questions'
 function NavBar() {
   return (
 <ul class="nav bg-black">
-<FontAwesomeIcon icon="fa-brands fa-whatsapp"  className='h2 mt-3 ms-3' style={{ color: 'DodgerBlue' }} />
+<FontAwesomeIcon icon="fa-brands fa-square-whatsapp"  className='h1 mt-3 ms-3' style={{ color: '#11154B' }} />
 
   <li class="nav-item ">
   <a class="text-white  nav-link active top-0 start-50 mt-3" aria-current="page" href="#">WhatsApp +54 (9) 2610000000</a>
@@ -23,7 +23,7 @@ function NavBar() {
     <a class="text-white nav-link mt-3" href="#">Preguntas Frecuentes</a>
   </li>
   <Link to={'/home'}>
-            <button type="button" className="fs-4 btn btn-black text-white mt-3 mb-3 ms-3">Home</button>
+            <button type="button" className=" btn btn-black text-white mt-3 mb-3 ms-3">Home</button>
           </Link>
   {/* <li class="nav-item">
     <a class="nav-link disabled">Disabled</a>

@@ -11,8 +11,10 @@ function Maps() {
   if(!isLoaded) return <div>Loading...</div>
 
   return (
+
     <div className='ubicacion'>
-      <h2>NUESTRA UBICACION</h2>
+      <center><h2>NUESTRA UBICACION</h2></center>
+      
       <Map />
     </div>
   )
