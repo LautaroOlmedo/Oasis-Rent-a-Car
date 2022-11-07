@@ -10,20 +10,17 @@ import Questions from '../Questions/Questions'
 function NavBar() {
   return (
 <ul class="nav bg-dark">
-<Link >
+
   <FontAwesomeIcon icon="fa-brands fa-whatsapp"  className='h2 mt-3 ms-3' style={{ color: 'DodgerBlue' }} />
-</Link>
+
 
   <li class="nav-item ">
-  <a class="text-white nav-link active top-0 start-50 mt-3" aria-current="page" href="#">WhatsApp +54 (9) 2610000000</a>
+  <a class="text-white nav-link active top-0 start-50 mt-3" aria-current="page" href="api.whatsapp.com/send?phone=542612493332">WhatsApp </a>
+
+  
     
   </li>
-  <li class="nav-item">
-    <a class="text-white nav-link mt-3" href="#">Sobre Nosotros</a>
-  </li>
-  <li class="nav-item">
-    <a class="text-white nav-link mt-3" href="#">Preguntas Frecuentes</a>
-  </li>
+  
   <Link to={'/home'}>
             <button type="button" className="fs-5 btn btn-dark mt-3 mb-3 ms-5">Home</button>
           </Link>
