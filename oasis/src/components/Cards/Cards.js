@@ -16,16 +16,15 @@ function Cards() {
           return(
             <div key={index} className="col mb-5">
               <center>
-                <div className="card" style={{height: '330px', width: '260px', background: 'white'}}>
-                  {/* {
-                    el.image ? <img src={el.image} class="card-img-top" alt='not found' width={50} height={50}/> 
+                <div className="card" style={{height: '375px', width: '260px', background: 'white'}}>
+                  {
+                    el.image ? <img src={el.image} class="card-img-top img-fluid" alt='not found'/> 
                     : null
-                  } */}
+                  }
                   <div className="card-body">
 
-                    <h3 className="card-title">{el.nombre}</h3>
+                    <h4 className="card-title">{el.nombre}</h4>
                     <hr />
-                    <h5 style={{fontSize: '25px', margin: '20px 0'}}>CARACTERISTICAS:</h5>
                     {/* <p>{el.aire}: Si</p>
                     <p>{el.direccion}: Si</p>
                     {/* {
@@ -34,9 +33,9 @@ function Cards() {
                     <p>{el.cristales}: Si</p> */}
                     {/* <p>Puertas: {el.puertas}</p> */}
                     <p>Pasajeros: {el.pasajeros}</p>
-                    <FontAwesomeIcon icon="fa-solid fa-user" class='icon-user' style={{height: '17px'}}/>
+                    {/* <FontAwesomeIcon icon="fa-solid fa-user" class='icon-user' style={{height: '17px'}}/> */}
                      <p><span>{el.baul}</span></p>
-                    <FontAwesomeIcon icon="fa-solid fa-briefcase" />
+                    {/* <FontAwesomeIcon icon="fa-solid fa-briefcase" /> */}
                     {/* <p>{el.Stereo}: Si</p>
                     <p>{el.bluetooth}: Si</p>
                     {
@@ -52,7 +51,7 @@ function Cards() {
                     {
                       <center>
                       <Link to={'/home/' + el.id}>
-                      <button type="button" className="fs-5 btn btn-dark mt-3 mb-3 ">Detail</button>
+                      <a type="button" className="btn btn-dark btn-sm ">Detail</a>
                     </Link>
                     </center>
                     }
