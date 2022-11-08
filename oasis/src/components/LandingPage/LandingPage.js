@@ -8,8 +8,10 @@ import negroOasis from '../../media/negroOasis.png'
 import videoOasis from '../../media/videoOasis.mp4'
 import OasisRent from '../../media/OasisRent.png'
 
+import { langContext } from '../../context/lanContext'
 
 function LandingPage() {
+  console.log(langContext)
   return (
     <div>
     <NavBar/>

@@ -13,15 +13,11 @@ function NavBar() {
 <FontAwesomeIcon icon="fa-brands fa-square-whatsapp"  className='h1 mt-3 ms-3' style={{ color: '#11154B' }} />
 
   <li class="nav-item ">
-  <a class="text-white  nav-link active top-0 start-50 mt-3" aria-current="page" href="#">WhatsApp +54 (9) 2610000000</a>
+  {/* <a class="text-white  nav-link active top-0 start-50 mt-3" aria-current="page" href="#">WhatsApp +54 (9) 2610000000</a> */}
+  <a class="text-white  nav-link active top-0 start-50 mt-3" aria-current="page" href="https://api.whatsapp.com/send?phone=2612493332" target="_blank" rel='noreferrer'>WhatsApp</a>
     
   </li>
-  <li class="nav-item">
-    <a class="text-white nav-link mt-3" href="#">Sobre Nosotros</a>
-  </li>
-  <li class="nav-item">
-    <a class="text-white nav-link mt-3" href="#">Preguntas Frecuentes</a>
-  </li>
+  
   <Link to={'/home'}>
             <button type="button" className=" btn btn-black text-white mt-3 mb-3 ms-3">Home</button>
           </Link>

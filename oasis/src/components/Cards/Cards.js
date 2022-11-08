@@ -2,6 +2,8 @@ import React from 'react'
 import './Cards.css'
 import data from '../data.json'
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 
 function Cards() {
@@ -14,7 +16,7 @@ function Cards() {
           return(
             <div key={index} className="col mb-5">
               <center>
-                <div className="card" style={{height: '265px', width: '260px', background: 'white'}}>
+                <div className="card" style={{height: '330px', width: '260px', background: 'white'}}>
                   {/* {
                     el.image ? <img src={el.image} class="card-img-top" alt='not found' width={50} height={50}/> 
                     : null
@@ -32,7 +34,9 @@ function Cards() {
                     <p>{el.cristales}: Si</p> */}
                     {/* <p>Puertas: {el.puertas}</p> */}
                     <p>Pasajeros: {el.pasajeros}</p>
-                    <p>{el.baul}</p>
+                    <FontAwesomeIcon icon="fa-solid fa-user" class='icon-user' style={{height: '17px'}}/>
+                     <p><span>{el.baul}</span></p>
+                    <FontAwesomeIcon icon="fa-solid fa-briefcase" />
                     {/* <p>{el.Stereo}: Si</p>
                     <p>{el.bluetooth}: Si</p>
                     {
@@ -45,13 +49,13 @@ function Cards() {
                       el.tipo ? <p>{el.tipo}: Si</p> : null
                     } */}
 
-                    {/* {
+                    {
                       <center>
-                      <Link to={'/home' + el.id}>
-                      <button type="button" className="fs-5 btn btn-dark mt-3 mb-3 ms-5">Detail</button>
+                      <Link to={'/home/' + el.id}>
+                      <button type="button" className="fs-5 btn btn-dark mt-3 mb-3 ">Detail</button>
                     </Link>
                     </center>
-                    } */}
+                    }
                     
                   </div>
                 </div>

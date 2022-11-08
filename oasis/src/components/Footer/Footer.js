@@ -38,9 +38,7 @@ function Footer() {
         <div className=''>
           <FontAwesomeIcon icon={'fa-brands fa-facebook'} className='h2 me-4' style={{ color: '#11154B' }}/>
           <FontAwesomeIcon icon={"fa-brands fa-twitter" } className='h2 me-4' style={{ color: '#11154B' }}/>
-          <FontAwesomeIcon icon={'fa-brands fa-instagram'} className='h2' style={{ color: '#11154B' }}
-          />
-          
+          <FontAwesomeIcon icon={'fa-brands fa-instagram'} className='h2' style={{ color: '#11154B' }}/>
         </div>
       </div>
       <div class='col-xs-12 pt-3'>
