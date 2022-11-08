@@ -13,15 +13,17 @@ function Home() {
 
   return (
     
-    <div class='bg-home'>
+    <div >
       <NavBar />
-      <div>
-     
+        <div class='img'>
+
+        </div>
+      <div class='bg-home'>
       <img src={negroOasis} class="card-img-top w-25 ms-5 top-0 start-50 mt-1" alt="..."/>
       {<Cards />}
       
       <center >
-      <div class="card w-50" >
+      <div class="card w-50 mb-5" >
         <img src={petFriendly} class="card-img-top" alt="..."/>
   
       </div>

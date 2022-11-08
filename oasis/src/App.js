@@ -4,6 +4,7 @@ import './App.css';
 import AboutUs from './components/AboutUs/AboutUs';
 // import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
+import Detail from './components/Detail/Detail';
 // import NavBar from './components/NavBar/NavBar';
 import LandingPage from './components/LandingPage/LandingPage';
 import Legal from './components/Legal/Legal';
@@ -29,7 +30,7 @@ function App() {
       <Route path='/home/questions' element={<Questions />} />
       <Route path='/aboutUs' element={<AboutUs />} />
       <Route path='/legal' element={<Legal />} />
-      <Route path='/home/:id' element={<Home />} />
+      <Route path='/home/:id' element={<Detail />} />
     </Routes>
   </div>
   </IntlProvider>

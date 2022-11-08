@@ -5,15 +5,24 @@ import {Link} from 'react-router-dom'
 import NavBar from '../NavBar/NavBar'
 import LandingPageFondo from '../../media/LandingPageFondo.jpeg'
 import negroOasis from '../../media/negroOasis.png'
+import { langContext } from '../../context/lanContext'
 
 function LandingPage() {
+  console.log(langContext)
   return (
+    
     <>
     <NavBar/>
-    <img class='video' src={LandingPageFondo} alt="logo" />
-         
-    <img src={negroOasis} alt="logo" />
-          
+    {/* <img class='video' src={LandingPageFondo} alt="logo" /> */}
+    <div class='img-fluid d-flex'>
+      <div class='video'>
+    </div>
+    
+
+    </div>
+        <div class='img-fluid d-flex'> 
+         <img src={negroOasis} alt="logo" />
+        </div>
       {/* <div className='homeContainer'>
         <div className='contenedorImagen'>
         </div>
