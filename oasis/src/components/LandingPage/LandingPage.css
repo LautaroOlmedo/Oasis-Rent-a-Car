@@ -13,13 +13,18 @@
 
 .video {
   background:linear-gradient(rgba(102, 102, 104, 0.6), rgba(102, 102, 104, 0.6)), url(../LandingPageFondo.jpeg);
-  height: 120vh;
+  height: 100%;
   width: 100%;
   object-fit: cover;
   position: absolute;
   z-index: -1;
   background-size: cover;
+
   
+}
+
+.logo{
+  margin-top: 100px;
 }
 
 /* .contenedorImagen {
