@@ -5,7 +5,8 @@ import {Link} from 'react-router-dom'
 import NavBar from '../NavBar/NavBar'
 import LandingPageFondo from '../../media/LandingPageFondo.jpeg'
 import negroOasis from '../../media/negroOasis.png'
-import Oasis-video from '../../'
+import videoOasis from '../../media/videoOasis.mp4'
+import OasisRent from '../../media/OasisRent.png'
 
 
 function LandingPage() {
@@ -20,8 +21,12 @@ function LandingPage() {
         <div class='logo'> 
          <img src={negroOasis} class='img-fluid' alt="logo" style= {{ height: '417px' }} />
         </div>
-   
-     
+        <div class='reseña'> 
+          <img src={OasisRent} class='img-fluid' alt='...' style={{height:'300px'}} />
+        </div>
+        {/* <video class='video-nuevo'>
+        <source src={videoOasis} alt='logo' class='position-absolute start-50 top-0'/>
+        </video> */}
      
      
         <Footer />
