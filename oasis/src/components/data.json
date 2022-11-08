@@ -13,7 +13,7 @@
   "baul":"Baúl amplio",
   "Stereo": "Stereo",
   "bluetooth": "Bluetooth",
-  "image": "C:/Users/Lautaro.DESKTOP-PFAUVN7/Desktop/Oasis Rent a Car/Oasis-Rent-a-Car/oasis/src/media/fiat-cronos.jpg",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNyTmeURvRvCF3vXm7ieWaj3zoZM-HBcie-w&usqp=CAU",
   "adicional": "Silla para bebé"
 
 },
@@ -31,6 +31,7 @@
   "Stereo": "Stereo",
   "bluetooth": "Bluetooth",
   "gps": "Gps",
+  "image": "https://cdn.motor1.com/images/mgl/RqnqEP/s3/fiat-cronos-13-cvt.jpg",
   "adicional": "Silla para bebé"
 
 },
@@ -47,6 +48,7 @@
   "baul":"Baúl amplio",
   "bluetooth":"Bluetooth",
   "Stereo":"Stereo",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8JFuz3B3bsdhMS0a1p-eYqynKOcDaxMRRNA&usqp=CAU",
   "adicional": "Silla para bebé"
 
 },
@@ -64,6 +66,7 @@
   "Stereo":"Stereo",
   "bluetooth":"Bluetooth",
   "gps":"Gps",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm8jOdKAiAxMbn748papRGjo9YmKhmgWKKsg&usqp=CAU",
   "adicional": "Silla para bebé"
 
 },
@@ -83,6 +86,7 @@
   "Stereo":"Stereo",
   "bluetooth":"Bluetooth",
   "gps":"Gps",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbet6p15UZ61JZ4a14P-NfiSwj4VJbxOUSUg&usqp=CAU",
   "adicional": "Silla para bebé"
 
 },
@@ -102,6 +106,7 @@
   "Stereo":"Stereo",
   "bluetooth":"Bluetooth",
   "gps":"Gps",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAHSm2jlJ0UsH6eiS-75-HECPEKYI6h2j2NQ&usqp=CAU",
   "adicional": "Silla para bebé"
 
 }

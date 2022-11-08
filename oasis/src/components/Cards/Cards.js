@@ -15,10 +15,10 @@ function Cards() {
             <div key={index} className="col mb-5">
               <center>
                 <div className="card" style={{height: '265px', width: '260px', background: 'white'}}>
-                  {/* {
-                    el.image ? <img src={el.image} class="card-img-top" alt='not found' width={50} height={50}/> 
+                  {
+                    el.image ? <img src={el.image} class="card-img-top" alt='not found' width={150} height={150}/> 
                     : null
-                  } */}
+                  }
                   <div className="card-body">
 
                     <h3 className="card-title">{el.nombre}</h3>
@@ -48,7 +48,7 @@ function Cards() {
                     {
                       <center>
                       <Link to={'/home/' + el.id}>
-                      <button type="button" className="fs-5 btn btn-dark mt-3 mb-3 ms-5">Detail</button>
+                      <button type="button" className="fs-5 btn btn-dark mt-3 mb-3 ms-5">Detalle</button>
                     </Link>
                     </center>
                     }
