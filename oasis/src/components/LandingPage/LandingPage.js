@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer'
 import {Link} from 'react-router-dom'
 import NavBar from '../NavBar/NavBar'
 import LandingPageFondo from '../../media/LandingPageFondo.jpeg'
-import negroOasis from '../../media/negroOasis.png'
+import negro-Oasis-nuevo from '../../media/negro-Oasis-nuevo.png'
 
 function LandingPage() {
   return (
@@ -13,14 +13,38 @@ function LandingPage() {
     {/* <img class='video' src={LandingPageFondo} alt="logo" /> */}
     <div class='img-fluid d-flex'>
       <div class='video'>
+      </div>
     </div>
-    
-
-    </div>
-        <div class='img-fluid d-flex'> 
-         <img src={negroOasis} alt="logo" />
+        <div class=''> 
+         <img src={negro-Oasis-nuevo} class='' alt="logo" style= {{ height: '417px' }} />
         </div>
-      {/* <div className='homeContainer'>
+     
+      <Footer />
+    </>
+  )
+}
+
+export default LandingPage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ {/* <div className='homeContainer'>
         <div className='contenedorImagen'>
         </div>
         <div class='btn-group'>
@@ -35,9 +59,3 @@ function LandingPage() {
           </Link>
         </div>
       </div> */}
-      <Footer />
-    </>
-  )
-}
-
-export default LandingPage

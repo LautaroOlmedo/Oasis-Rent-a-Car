@@ -31,25 +31,11 @@ function Home() {
         En Oasis creemos que los animales son un integrante más de la familia, por eso
         podes llevarlo donde vayas con vos!
        </h5>
-       
-      {/* <div >
-        <img src={animals} class="img-thumbnail" alt="not found" height={400} width={350}></img>
-        <br />
-        
-        <div style={{fontSize: 25}}>
-         <p>Amamos y disfrutamos la compañía de los animales, podes llevarlo con vos!!,
-           Amamos y disfrutamos la compañía de los animales, podes llevarlo con vos!!
-           Amamos y disfrutamos la compañía de los animales, podes llevarlo con vos!!
-      
-          </p>
-        </div>
-      </div> */}
       </center>
       </div>
       <center>
         
       </center>
-      {/* <Reviews /> */}
       <Maps />
     
       <Footer />
