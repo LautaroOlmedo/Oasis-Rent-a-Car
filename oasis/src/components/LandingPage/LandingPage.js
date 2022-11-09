@@ -16,16 +16,17 @@ function LandingPage() {
     <div>
     <NavBar/>
     {/* <img class='video' src={LandingPageFondo} alt="logo" /> */}
-    <div class=''>
+    
       <div class='video'>
       </div>
-    </div>
+    
         <div class='logo'> 
          <img src={negroOasis} class='img-fluid' alt="logo" style= {{ height: '417px' }} />
         </div>
-        <div class='reseña'> 
+       
+        {/* <div class='reseña'> 
           <img src={OasisRent} class='img-fluid' alt='...' style={{height:'300px'}} />
-        </div>
+        </div> */}
         {/* <video class='video-nuevo'>
         <source src={videoOasis} alt='logo' class='position-absolute start-50 top-0'/>
         </video> */}

@@ -32,10 +32,12 @@ function Cards() {
                     }
                     <p>{el.cristales}: Si</p> */}
                     {/* <p>Puertas: {el.puertas}</p> */}
-                    <p>Pasajeros: {el.pasajeros}</p>
-                    {/* <FontAwesomeIcon icon="fa-solid fa-user" class='icon-user' style={{height: '17px'}}/> */}
-                     <p><span>{el.baul}</span></p>
-                    {/* <FontAwesomeIcon icon="fa-solid fa-briefcase" /> */}
+                    <p><FontAwesomeIcon icon="fa-solid fa-user" class='me-2 h2' style={{height: '17px'}}/> {el.pasajeros}</p>
+                  
+                     
+                  
+                     <p><FontAwesomeIcon icon="fa-solid fa-briefcase" class='me-2 h2' style={{height: '17px'}}/> {el.baul}</p>
+                     
                     {/* <p>{el.Stereo}: Si</p>
                     <p>{el.bluetooth}: Si</p>
                     {
