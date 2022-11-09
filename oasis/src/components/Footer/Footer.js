@@ -7,7 +7,7 @@ import {langContext} from '../../context/lanContext'
 function Footer() {
   return (
 
-    <footer className='row p-5  pb-2 bg-black mt-5 justify-content-around mx-0 position-relative fixed-bottom'>
+    <footer className='row p-5 pb-2 bg-black mt-5 justify-content-around mx-0 position-relative fixed-bottom'>
       <div className='col-md-3 text-center'>
         <div className='text-white'>
           <h5 className='text-uppercase font-weight-light text-white mb-3'>
@@ -36,9 +36,7 @@ function Footer() {
         <div className=''>
           <FontAwesomeIcon icon={'fa-brands fa-facebook'} className='h2 me-4' style={{ color: '#11154B' }}/>
           <FontAwesomeIcon icon={"fa-brands fa-twitter" } className='h2 me-4' style={{ color: '#11154B' }}/>
-          <FontAwesomeIcon icon={'fa-brands fa-instagram'} className='h2' style={{ color: '#11154B' }}
-          />
-          
+          <FontAwesomeIcon icon={'fa-brands fa-instagram'} className='h2' style={{ color: '#11154B' }}/>
         </div>
       </div>
       <div class='col-xs-12 pt-3'>

@@ -33,7 +33,7 @@ function NavBar() {
   <Link to={'/home'}>
             <button type="button" className=" btn btn-black text-white mt-3 mb-3 ms-3"><FormattedMessage id='navBar.home' defaultMessage={'Inicio'}/></button>
           </Link>
-  <div >
+  <div className='banderas'>
 					<button onClick={() => idioma.establecerLenguaje('es-ES')}><img src={es} alt=""/></button>
 					<button onClick={() => idioma.establecerLenguaje('en-US')}><img src={en} alt=""/></button>
 				</div>

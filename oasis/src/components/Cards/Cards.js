@@ -1,11 +1,18 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import './Cards.css'
 import data from '../data.json'
+import englishData from '../data2.json'
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {langContext} from '../../context/lanContext'
+import {FormattedMessage} from 'react-intl'
 
 
 function Cards() {
+  let idioma = useContext(langContext)
   const data1 = data
+  const data2 = englishData
+  console.log(idioma);
 
   return (
     <div className="row ms-5 me-5">
@@ -14,41 +21,23 @@ function Cards() {
           return(
             <div key={index} className="col mb-5">
               <center>
-                <div className="card" style={{height: '265px', width: '260px', background: 'white'}}>
+                <div className="card" style={{height: '375px', width: '260px', background: 'white'}}>
                   {
-                    el.image ? <img src={el.image} class="card-img-top" alt='not found' width={150} height={150}/> 
+                    el.image ? <img src={el.image} class="card-img-top img-fluid" alt='not found'/> 
                     : null
                   }
                   <div className="card-body">
 
-                    <h3 className="card-title">{el.nombre}</h3>
+                    <h4 className="card-title">{el.nombre}</h4>
                     <hr />
-                    <h5 style={{fontSize: '25px', margin: '20px 0'}}>CARACTERISTICAS:</h5>
-                    {/* <p>{el.aire}: Si</p>
-                    <p>{el.direccion}: Si</p>
-                    {/* {
-                      el.alarma ? <p>{el.alarma}: Si</p> : null
-                    }
-                    <p>{el.cristales}: Si</p> */}
-                    {/* <p>Puertas: {el.puertas}</p> */}
-                    <p>Pasajeros: {el.pasajeros}</p>
-                    <p>{el.baul}</p>
-                    {/* <p>{el.Stereo}: Si</p>
-                    <p>{el.bluetooth}: Si</p>
-                    {
-                      el.gps ? <p>{el.gps}: Si</p> : null
-                    }
-                                        {
-                      el.caja ? <p>{el.caja}: Si</p> : null
-                    }
-                                        {
-                      el.tipo ? <p>{el.tipo}: Si</p> : null
-                    } */}
-
+                    <p><FormattedMessage id='card.Passengers' defaultMessage={'passengers'}/>: <FormattedMessage id='card.EnglishDataPassengers' defaultMessage={'5 passengers'}/> </p>
+                   
+                     <p><span><FormattedMessage id='card.Trunk' defaultMessage={'spacious trunk'}/></span></p>
+                
                     {
                       <center>
                       <Link to={'/home/' + el.id}>
-                      <button type="button" className="fs-5 btn btn-dark mt-3 mb-3 ms-5">Detalle</button>
+                      <a type="button" className="btn btn-dark btn-sm ">Detail</a>
                     </Link>
                     </center>
                     }

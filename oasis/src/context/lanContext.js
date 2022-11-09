@@ -13,14 +13,15 @@ const LangProvider = ({children}) =>{
             case 'es-ES':
                 establecerMensajes(SpanishMessage)
                 establecerLocale('es-ES')
-                break;
+                return locale
             case 'en-US':
                 establecerMensajes(EnglishMessage)
                 establecerLocale('en-US')
-                break;
+                return locale
             default:
                 establecerMensajes(SpanishMessage)
                 establecerLocale('es-ES')
+                return locale
         };
     };
     return(

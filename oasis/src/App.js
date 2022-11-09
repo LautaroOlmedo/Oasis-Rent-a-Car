@@ -16,7 +16,6 @@ import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import {IntlProvider, FormattedMessage} from 'react-intl'
 import EnlgishMessage from './lang/en-US.json'
-import SpanishMessage from './lang/es-ES.json'
 library.add(fab, faCheckSquare, faCoffee, fas)
 
 

@@ -3,5 +3,8 @@
     "navBar.home": "Home",
     "footer.Atention": "Public attention",
     "footer.Hours": "Working hours",
-    "footer.Follow": "FOLLOW US ON THE NETWORKS!"
+    "footer.Follow": "FOLLOW US ON THE NETWORKS!",
+    "card.Passengers": "passengers",
+    "card.EnglishDataPassengers": "5 passengers",
+    "card.Trunk": "spacious trunk"
 }
