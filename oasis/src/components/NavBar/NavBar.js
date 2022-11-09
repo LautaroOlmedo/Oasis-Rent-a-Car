@@ -20,23 +20,30 @@ function NavBar() {
 
   <li class="nav-item ">
   {/* <a class="text-white  nav-link active top-0 start-50 mt-3" aria-current="page" href="#">WhatsApp +54 (9) 2610000000</a> */}
-  <a class="text-white  nav-link active top-0 start-50 mt-3" aria-current="page" href="https://api.whatsapp.com/send?phone=2612493332" target="_blank" rel='noreferrer'>WhatsApp</a>
+  <a class="text-white  nav-link active top-0 start-50 mt-3" aria-current="page" href="https://api.whatsapp.com/send?phone=2617743816" target="_blank" rel='noreferrer'>WhatsApp</a>
     
   </li>
   <br/>
+  <FontAwesomeIcon icon={'fa-brands fa-instagram'} className='h1 mt-3 ms-3' style={{ color: '#11154B' }}/>
   <li class="nav-item ">
   {/* <a class="text-white  nav-link active top-0 start-50 mt-3" aria-current="page" href="#">WhatsApp +54 (9) 2610000000</a> */}
   <a class="text-white  nav-link active top-0 start-50 mt-3" aria-current="page" href="https://www.instagram.com/oasis.rentacarmza/" target="_blank" rel='noreferrer'>Instagram</a>
-    
+ 
   </li>
   
   <Link to={'/home'}>
             <button type="button" className=" btn btn-black text-white mt-3 mb-3 ms-3"><FormattedMessage id='navBar.home' defaultMessage={'Inicio'}/></button>
-          </Link>
-  <div className='banderas'>
+  </Link>
+  
+ 
+  <div class="nav-item ">
+    
+ 
 					<button onClick={() => idioma.establecerLenguaje('es-ES')}><img src={es} alt=""/></button>
 					<button onClick={() => idioma.establecerLenguaje('en-US')}><img src={en} alt=""/></button>
-				</div>
+  
+	</div>
+
 </ul>
 
   )

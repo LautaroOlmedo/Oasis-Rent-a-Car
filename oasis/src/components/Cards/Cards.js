@@ -21,7 +21,7 @@ function Cards() {
           return(
             <div key={index} className="col mb-5">
               <center>
-                <div className="card" style={{height: '375px', width: '260px', background: 'white'}}>
+                <div className="card" style={{height: '375px', width: '400px', background: 'white'}}>
                   {
                     el.image ? <img src={el.image} class="card-img-top img-fluid" alt='not found'/> 
                     : null
@@ -30,14 +30,17 @@ function Cards() {
 
                     <h4 className="card-title">{el.nombre}</h4>
                     <hr />
-                    <p><FormattedMessage id='card.Passengers' defaultMessage={'passengers'}/>: <FormattedMessage id='card.EnglishDataPassengers' defaultMessage={'5 passengers'}/> </p>
-                   
-                     <p><span><FormattedMessage id='card.Trunk' defaultMessage={'spacious trunk'}/></span></p>
+                  
+                    <p><FontAwesomeIcon icon="fa-solid fa-user" class='me-2 h2' style={{height: '17px'}}/> <FormattedMessage id='card.EnglishDataPassengers' defaultMessage={"5 passengers"}/></p>
+                  
                 
+                     <p><FontAwesomeIcon icon="fa-solid fa-briefcase" class='me-2 h2' style={{height: '17px'}}/> <FormattedMessage id='card.Trunk' defaultMessage={"spacious trunk"}/></p>
+                     
+                 
                     {
                       <center>
                       <Link to={'/home/' + el.id}>
-                      <a type="button" className="btn btn-dark btn-sm ">Detail</a>
+                      <a type="button" className="btn btn-dark btn-sm "><FormattedMessage id='card.Detail' defaultMessage={'Detail'}/></a>
                     </Link>
                     </center>
                     }

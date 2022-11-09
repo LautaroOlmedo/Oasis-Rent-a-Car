@@ -6,6 +6,7 @@ import NavBar from '../NavBar/NavBar'
 import LandingPageFondo from '../../media/LandingPageFondo.jpeg'
 import negroOasis from '../../media/negroOasis.png'
 import OasisRent from '../../media/OasisRent.png'
+import {FormattedMessage} from 'react-intl'
 
 import { langContext } from '../../context/lanContext'
 
@@ -14,22 +15,23 @@ function LandingPage() {
   return (
     <div>
     <NavBar/>
-
-    <div class=''>
+    {/* <img class='video' src={LandingPageFondo} alt="logo" /> */}
+    
       <div class='video'>
       </div>
-    </div>
+    
         <div class='logo'> 
          <img src={negroOasis} class='img-fluid' alt="logo" style= {{ height: '417px' }} />
         </div>
-        <div class='reseña'> 
-          <img src={OasisRent} class='img-fluid' alt='...' style={{height:'300px'}} />
+        <div class="card" style={{width: '700px', background: null}}>
+         <div class="card-body">
+    
+            <p class="card-text"><FormattedMessage id='landing.Description'/></p>
+    
+         </div>
         </div>
-        {/* <video class='video-nuevo'>
-        <source src={videoOasis} alt='logo' class='position-absolute start-50 top-0'/>
-        </video> */}
-     
-     
+       
+  
         <Footer />
     </div>
   )

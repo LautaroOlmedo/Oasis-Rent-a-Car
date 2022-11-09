@@ -14,7 +14,7 @@ function Footer() {
           <FormattedMessage id='footer.Atention' defaultMessage={'Public attention'}/>
           </h5>
           <FontAwesomeIcon icon={['fas', 'phone-alt']} className='h2' style={{ color: '#11154B' }}/>
-          <p>0800-1234-0000</p>
+          <p>+54 2617 74 3816</p>
           <p>+54 9 2615 12-1525</p>
           <p>oasisrentacarmza@gmail.com</p>
         </div>
