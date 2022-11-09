@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import Cards from '../Cards/Cards'
 import Footer from '../Footer/Footer'
 import Maps from '../Maps/Maps'
@@ -8,10 +8,15 @@ import './Home.css'
 import animals from '../../media/animals.jpeg'
 import negroOasis from '../../media/negroOasis.png'
 import petFriendly from '../Home/petFriendly.png'
-
+import {IntlProvider, FormattedMessage} from 'react-intl'
+import EnglishMessage from '../../lang/en-US.json'
+import SpanishMessage from '../../lang/es-ES.json'
+import { langContext } from '../../context/lanContext'
 function Home() {
-
+  
+  const idioma = useContext(langContext);
   return (
+   
     
     <div >
       <NavBar />
@@ -28,30 +33,13 @@ function Home() {
   
       </div>
       <h5 style={{fontSize: '25px', margin: '20px 0'}}>
-        En Oasis creemos que los animales son un integrante más de la familia, por eso
-        podes llevarlo donde vayas con vos!
+        <FormattedMessage id='home.pets' defaultMessage={'hi'}/>
        </h5>
-       
-      {/* <div >
-        <img src={animals} class="img-thumbnail" alt="not found" height={400} width={350}></img>
-        <br />
-        
-        <div style={{fontSize: 25}}>
-         <p>Amamos y disfrutamos la compañía de los animales, podes llevarlo con vos!!,
-           Amamos y disfrutamos la compañía de los animales, podes llevarlo con vos!!
-           Amamos y disfrutamos la compañía de los animales, podes llevarlo con vos!!
-      
-          </p>
-        </div>
-      </div> */}
       </center>
       </div>
       <center>
-        
       </center>
-      {/* <Reviews /> */}
       <Maps />
-    
       <Footer />
       </div>
       )

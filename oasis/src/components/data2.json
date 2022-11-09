@@ -1,7 +1,7 @@
 [
     
 {
-
+    "id": 1,
     "name": "Chevrolet onix",
     "air-conditioning": "air-conditioning", 
     "hydraulic steering": "hydraulic steering", 
@@ -18,7 +18,7 @@
 },
 
 {
-
+    "id": 2,
     "name": "Fiat cronos",
     "air-conditioning": "air-conditioning", 
     "hydraulic steering": "hydraulic steering", 
@@ -35,7 +35,7 @@
 },
 
 {
-
+    "id": 3,
     "name": "Volswagen suran",
     "air-conditioning": "air-conditioning", 
     "hydraulic steering": "hydraulic steering", 
@@ -53,6 +53,7 @@
 
 {
 
+    "id": 4,
     "name": "Ford ecosport",
     "air-conditioning": "air-conditioning", 
     "hydraulic steering": "hydraulic steering", 
@@ -69,7 +70,7 @@
 },
 
 {
-    
+    "id": 5,
     "name": "Fiat toro",
     "air-conditioning": "air-conditioning", 
     "4x4": "4x4",
@@ -88,6 +89,8 @@
 },
 
 {
+
+    "id": 6,
     "name": "Volkswagen amarok",
     "air-conditioning": "air-conditioning", 
     "4x4": "4x4",
