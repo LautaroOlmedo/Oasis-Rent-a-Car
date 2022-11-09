@@ -7,6 +7,7 @@ import LandingPageFondo from '../../media/LandingPageFondo.jpeg'
 import negroOasis from '../../media/negroOasis.png'
 import videoOasis from '../../media/videoOasis.mp4'
 import OasisRent from '../../media/OasisRent.png'
+import quienesSomos from '../../media/quienesSomos.png'
 
 import { langContext } from '../../context/lanContext'
 
@@ -17,13 +18,19 @@ function LandingPage() {
     <NavBar/>
     {/* <img class='video' src={LandingPageFondo} alt="logo" /> */}
     
-      <div class='video'>
-      </div>
-    
+        <div class='video'>
+        </div>  
         <div class='logo'> 
          <img src={negroOasis} class='img-fluid' alt="logo" style= {{ height: '417px' }} />
         </div>
-       
+       <div class='card-qs'>
+          <div class='face front'>
+              <img src={OasisRent} alt='...'/>
+          </div>
+          <div class='face back'>
+              <img src={quienesSomos} alt='...'/>
+          </div>
+       </div>
         {/* <div class='reseña'> 
           <img src={OasisRent} class='img-fluid' alt='...' style={{height:'300px'}} />
         </div> */}
