@@ -57,7 +57,7 @@
 .card-qs .front {
   transform: perspective(600px) rotateY(180deg);
   left: 600px;
-  bottom: 370px;
+  bottom: 400px;
 }
 
 .card-qs .front img{
@@ -70,7 +70,7 @@
 .card-qs .back {
   transform: perspective(600px) rotateY(0deg);
   left: 600px;
-  bottom: 370px;
+  bottom: 400px;
   display: flex;
 }
 .card-qs .back img{
