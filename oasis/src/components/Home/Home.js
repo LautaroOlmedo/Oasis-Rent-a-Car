@@ -12,6 +12,7 @@ import EnglishMessage from '../../lang/en-US.json'
 import SpanishMessage from '../../lang/es-ES.json'
 import { langContext } from '../../context/lanContext'
 import Calendarr from '../Calendar/Calendar'
+import Maps from '../Maps/Maps'
 function Home() {
   
   const idioma = useContext(langContext);
@@ -38,6 +39,9 @@ function Home() {
       <div>
       <Calendarr />
       </div>
+   
+        {/* <Maps /> */}
+
       </div>
       
      
