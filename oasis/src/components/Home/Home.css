@@ -12,8 +12,17 @@
   background-size: cover; */
   overflow-x: hidden !important;
   background-size: contain;
+  font-family: sans-serif;
 
 }
 
+.calendario-home{
+ margin-left: 502px;
+}
 
+.card-body{
 
+  left: 600px;
+  
+  top: 95px;
+}

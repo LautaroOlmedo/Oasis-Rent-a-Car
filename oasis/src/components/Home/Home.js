@@ -22,6 +22,7 @@ function Home() {
     <div >
       <NavBar />
         
+      <p class="fw-bolder fs-5 card-body w-50 position-absolute bottom-50 end-50"><FormattedMessage id='landing.Description'/></p>
       <div class='bg-home'>
       <img src={negroOasis} class="card-img-top w-25 ms-5 top-0 start-50 mt-1" alt="..."/>
       
@@ -36,7 +37,7 @@ function Home() {
         <FormattedMessage id='home.pets'/>
        </h5>
       </center>
-      <div>
+      <div class='calendario-home'>
       <Calendarr />
       </div>
    
