@@ -1,3 +1,12 @@
 {
-    "app.welcome": "Welcome"
+    "home.pets": "At Oasis we believe that animals are one more member of the family, that's why you can take it wherever you go with you!",
+    "navBar.home": "Home",
+    "footer.Atention": "Public attention",
+    "footer.Hours": "Working hours",
+    "footer.Follow": "FOLLOW US ON THE NETWORKS!",
+    "card.Passengers": "passengers",
+    "card.EnglishDataPassengers": "5 passengers",
+    "card.Trunk": "spacious trunk",
+    "card.Detail": "Detail",
+    "landing.Description": "We are a company dedicated to offering an excellent service in car and truck rentals, built on the basis of family values ​​that define us. Commitment, punctuality, efficiency and honesty are the fundamental pillars that qualify us. We constantly seek to provide an unforgettable experience with the greatest security so that you can make the most of your trip and can move with total freedom and confidence, since each of our vehicles has its corresponding insurance and assistance. With us you will find a wide variety of rental options, with advice 24 hours a day, which you can do at fully accessible prices."
 }

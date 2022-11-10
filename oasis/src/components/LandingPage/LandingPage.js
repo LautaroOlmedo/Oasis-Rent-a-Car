@@ -5,9 +5,9 @@ import {Link} from 'react-router-dom'
 import NavBar from '../NavBar/NavBar'
 import LandingPageFondo from '../../media/LandingPageFondo.jpeg'
 import negroOasis from '../../media/negroOasis.png'
-import videoOasis from '../../media/videoOasis.mp4'
 import OasisRent from '../../media/OasisRent.png'
 import quienesSomos from '../../media/quienesSomos.png'
+import {FormattedMessage} from 'react-intl'
 
 import { langContext } from '../../context/lanContext'
 
@@ -25,7 +25,14 @@ function LandingPage() {
         </div>
        <div class='card-qs'>
           <div class='face front'>
-              <img src={OasisRent} alt='...'/>
+              {/* <img src={OasisRent} alt='...'/> */}
+              <div class="card bg-black text-white" style={{width: '600px'}}>
+         <div class="card-body">
+    
+            <p class="card-text"><FormattedMessage id='landing.Description'/></p>
+    
+         </div>
+        </div>
           </div>
           <div class='face back'>
               <img src={quienesSomos} alt='...'/>
@@ -39,6 +46,9 @@ function LandingPage() {
         </video> */}
      
      
+        
+       
+  
         <Footer />
     </div>
   )
@@ -64,18 +74,4 @@ export default LandingPage
 
 
 
- {/* <div className='homeContainer'>
-        <div className='contenedorImagen'>
-        </div>
-        <div class='btn-group'>
-          <Link to={'/home'}>
-            <button type="button" className="btn btn-dark">INICIO</button>
-          </Link>
-          <Link to={'/aboutUs'}>
-            <button type="button" className="btn btn-dark">SOBRE NOSOTROS</button>
-          </Link>
-          <Link to={'/legal'}>
-            <button type="button" className="btn btn-dark">LEGAL</button>
-          </Link>
-        </div>
-      </div> */}
+ 
