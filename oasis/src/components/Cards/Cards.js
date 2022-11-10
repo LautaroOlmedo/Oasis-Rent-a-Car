@@ -40,7 +40,7 @@ function Cards() {
                     {
                       <center>
                       <Link to={'/home/' + el.id}>
-                      <a type="button" className="btn btn-dark btn-sm "><FormattedMessage id='card.Detail' defaultMessage={'Detail'}/></a>
+                      <a type="button" className=" btn btn-dark btn-sm "><FormattedMessage id='card.Detail' defaultMessage={'Detail'}/></a>
                     </Link>
                     </center>
                     }
