@@ -16,7 +16,7 @@ function NavBar() {
 
   return (
 <ul class="nav bg-black">
-<FontAwesomeIcon icon="fa-brands fa-square-whatsapp"  className='h2 mt-3 pt-1 ms-3' style={{ color: '#11154B' }} />
+<FontAwesomeIcon icon="fa-brands fa-square-whatsapp"  className='h2 mt-3 pt-1 ms-3' style={{ color: 'DodgerBlue' }} />
 
   <li class="nav-item ">
   {/* <a class="text-white  nav-link active top-0 start-50 mt-3" aria-current="page" href="#">WhatsApp +54 (9) 2610000000</a> */}
@@ -24,14 +24,14 @@ function NavBar() {
     
   </li>
   <br/>
-  <FontAwesomeIcon icon={'fa-brands fa-instagram'} className='h2 mt-3 pt-1 ms-3' style={{ color: '#11154B' }}/>
+  <FontAwesomeIcon icon={'fa-brands fa-instagram'} className='h2 mt-3 pt-1 ms-3' style={{ color: 'DodgerBlue' }}/>
   <li class="nav-item ">
   {/* <a class="text-white  nav-link active top-0 start-50 mt-3" aria-current="page" href="#">WhatsApp +54 (9) 2610000000</a> */}
   <a class="text-white  nav-link active top-0 start-50 mt-3" aria-current="page" href="https://www.instagram.com/oasis.rentacarmza/" target="_blank" rel='noreferrer'>Instagram</a>
  
   </li>
   <br/>
-  <FontAwesomeIcon icon="fa-solid fa-envelope" className='h2 mt-3 pt-1 ms-3' style={{ color: '#11154B' }}/>
+  <FontAwesomeIcon icon="fa-solid fa-envelope" className='h2 mt-3 pt-1 ms-3' style={{ color: 'DodgerBlue' }}/>
   <li class="nav-item ">
   {/* <a class="text-white  nav-link active top-0 start-50 mt-3" aria-current="page" href="#">WhatsApp +54 (9) 2610000000</a> */}
   <a class="text-white  nav-link active top-0 start-50 mt-3" aria-current="page" href="https://www.instagram.com/oasis.rentacarmza/" target="_blank" rel='noreferrer'>oasisrentacarmza@gmail.com</a>
