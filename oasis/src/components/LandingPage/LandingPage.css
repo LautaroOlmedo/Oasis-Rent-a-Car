@@ -41,18 +41,22 @@
   padding: 0px;
   box-sizing: border-box;
   position: absolute;
-  width: 590px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
+  left: 800px;
+  bottom: 370px;
+  /* background:linear-gradient; */
 
+  
 }
-.card-qs .face{
+/* .card-qs .face{
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
   overflow: hidden;
   transition: 0s;
-}
+} */
 
 .card-qs .front {
   transform: perspective(600px) rotateY(180deg);

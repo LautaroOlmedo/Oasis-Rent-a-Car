@@ -7,6 +7,7 @@ import Footer from "../Footer/Footer";
 import './Detail.css'
 import {FormattedMessage} from 'react-intl'
 import { langContext } from "../../context/lanContext";
+import Calendarr from "../Calendar/Calendar";
 
 
 export default function Detail(){
@@ -19,13 +20,16 @@ export default function Detail(){
           <div class='bg-detail'>
             <img src={negroOasis} class="card-img-top w-25 ms-5 top-0 start-50 mt-1" alt="..."/>
           </div>
-          <center class='ms-4 mt-5 col-lg-6 pl-0 pull-left'>
+          <center class='ms-4 mt-5 col-lg-10 pl-0 pull-left'>
           <span class='col-lg-12 pl-0 pr-0' >
                   <p class='d-flex mb-0'>
-                    <h3 class='ms-3'>{filter[0].nombre}</h3>
+                    <h3 class='ms-3 fw-bold'>{filter[0].nombre}</h3>
                    </p>
                 </span>
                 <hr/>
+          <div class='calendario-detail position-absolute top-50 start-50 '>
+          <Calendarr />
+          </div>
                 <span class='col-lg-12 pl-0 pr-0' >
                   <p class='d-flex mb-0'>
                     <h5>✓</h5><h5> <FormattedMessage id="detail.Air"/></h5>
@@ -102,9 +106,12 @@ export default function Detail(){
           
           </center>
           <div>
+          {/* <iframe href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26804.498539547658!2d-68.87602869388779!3d-32.883297940502054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1668040463749!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+          
           <Link to={'/home'}>
-                  <a type="button" className="position-absolute top-0 start-50 mt-3 btn btn-dark "><FormattedMessage id='detail.Home' defaultMessage={'Home'}/></a>
+                  <a type="button" className="ms-4 mt-3 btn btn-lg btn-dark "><FormattedMessage id='detail.Home' defaultMessage={'Home'}/></a>
           </Link>
+          
           </div>
           <Footer />
         </div>

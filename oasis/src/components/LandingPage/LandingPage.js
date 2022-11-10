@@ -16,17 +16,16 @@ function LandingPage() {
   return (
     <div>
     <NavBar/>
-    {/* <img class='video' src={LandingPageFondo} alt="logo" /> */}
-    
+
+  
         <div class='video'>
         </div>  
         <div class='logo'> 
          <img src={negroOasis} class='img-fluid' alt="logo" style= {{ height: '417px' }} />
         </div>
        <div class='card-qs'>
-          <div class='face front'>
-              {/* <img src={OasisRent} alt='...'/> */}
-              <div class="card bg-black text-white" style={{width: '600px'}}>
+          <div>
+              <div  style={{width: '700px', }}>
          <div class="card-body">
     
             <p class="card-text"><FormattedMessage id='landing.Description'/></p>
@@ -34,21 +33,8 @@ function LandingPage() {
          </div>
         </div>
           </div>
-          <div class='face back'>
-              <img src={quienesSomos} alt='...'/>
-          </div>
+      
        </div>
-        {/* <div class='reseña'> 
-          <img src={OasisRent} class='img-fluid' alt='...' style={{height:'300px'}} />
-        </div> */}
-        {/* <video class='video-nuevo'>
-        <source src={videoOasis} alt='logo' class='position-absolute start-50 top-0'/>
-        </video> */}
-     
-     
-        
-       
-  
         <Footer />
     </div>
   )

@@ -28,7 +28,7 @@ function Cards() {
                   }
                   <div className="card-body">
 
-                    <h4 className="card-title">{el.nombre}</h4>
+                    <h4 className="card-title fw-bold">{el.nombre}</h4>
                     <hr />
                   
                     <p><FontAwesomeIcon icon="fa-solid fa-user" class='me-2 h2' style={{height: '17px'}}/> <FormattedMessage id='card.EnglishDataPassengers' defaultMessage={"5 passengers"}/></p>
