@@ -23,7 +23,7 @@ function LandingPage() {
         <div class='logo'> 
          <img src={negroOasis} class='img-fluid' alt="logo" style= {{ height: '417px' }} />
         </div>
-        <div class="card" style={{width: '700px', background: null}}>
+        <div class="card bg-transparent" style={{width: '700px'}}>
          <div class="card-body">
     
             <p class="card-text"><FormattedMessage id='landing.Description'/></p>
