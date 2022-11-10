@@ -45,9 +45,10 @@ function NavBar() {
  
   <div class="nav-item position-absolute top-0 end-0 me-5">
     
- 
-					<button class='bg-black border border-0 me-3 ' onClick={() => idioma.establecerLenguaje('es-ES')}><img src={es} alt=""/></button>
-					<button class='bg-black border border-0' onClick={() => idioma.establecerLenguaje('en-US')}><img src={en} alt=""/></button>
+        <div class='banderas'>
+					<button class='bg-black border border-0 me-3 ' onClick={() => idioma.establecerLenguaje('es-ES')}><img src={es} style={{height:'35px'}} alt=""/></button>
+					<button class='bg-black border border-0' onClick={() => idioma.establecerLenguaje('en-US')}><img src={en} style={{height:'35px'}} alt=""/></button>
+        </div>
   
 	</div>
 

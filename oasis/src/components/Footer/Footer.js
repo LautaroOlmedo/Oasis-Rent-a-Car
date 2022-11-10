@@ -40,7 +40,7 @@ function Footer() {
           <a class="" aria-current="page" href="https://www.instagram.com/oasis.rentacarmza/" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={"fa-brands fa-square-instagram" } className='h2 me-4' style={{ color: 'DodgerBlue' }}/></a>
         
           
-             <a class="" aria-current="page" href="https://api.whatsapp.com/send?phone=2617743816" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={"fa-brands fa-square-whatsapp" } className='h2 me-4' style={{ color: 'DodgerBlue' }}/></a>
+             <a class="" aria-current="page" href="https://api.whatsapp.com/send?phone=2617743816" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={"fa-brands fa-square-whatsapp" } className='h2 ' style={{ color: 'DodgerBlue' }}/></a>
              
         
         </div>
