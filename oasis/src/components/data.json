@@ -1,0 +1,114 @@
+
+[
+    
+{
+
+  "id": 1,
+  "nombre": "Chevrolet Onix",
+  "aire": "Aire acondicionado",
+  "direccion": "Dirección hidrulica",
+  "cristales": "Levanta cristales",
+  "puertas": "4 puertas",
+  "pasajeros": "5 pasajeros",
+  "baul":"Baúl amplio",
+  "Stereo": "Stereo",
+  "bluetooth": "Bluetooth",
+  "image": "https://cdn.motor1.com/images/mgl/x6RNG/s3/critica-chevrolet-onix-1-0-turbo-premier.jpg",
+  "adicional": "Silla para bebé"
+
+},
+{
+
+  "id": 2,
+  "nombre": "Fiat Cronos",
+  "aire": "Aire acondicionado",
+  "direccion":"Dirección hidrulica",
+  "alarma": "Alarma con cierre centralizado",
+  "cristales":"Levanta cristales",
+  "puertas": "4 puertas",
+  "pasajeros": "5 pasajeros",
+  "baul": "Baúl amplio",
+  "Stereo": "Stereo",
+  "bluetooth": "Bluetooth",
+  "gps": "Gps",
+  "image": "https://cdn.motor1.com/images/mgl/RqnqEP/s3/fiat-cronos-13-cvt.jpg",
+  "adicional": "Silla para bebé"
+
+},
+{
+
+  "id": 3,
+  "nombre": "Volkswagen Suran",
+  "aire": "Aire acondicionado",
+  "direccion":"Dirección hidrulica",
+  "alarma":"Alarma con cierre centralizado",
+  "cristales":"Levanta cristales",
+  "puertas":"4 puertas",
+  "pasajeros":"5 pasajeros",
+  "baul":"Baúl amplio",
+  "bluetooth":"Bluetooth",
+  "Stereo":"Stereo",
+  "image": "https://i.ytimg.com/vi/UqcCn3XG42M/maxresdefault.jpg",
+  "adicional": "Silla para bebé"
+
+},
+{
+
+  "id": 4,
+  "nombre": "Ford Ecosport",
+  "aire":"Aire acondicionado",
+  "direccion":"Dirección hidrulica",
+  "alarma":"Alarma con cierre centralizado",
+  "cristales":"Levanta cristales",
+  "puertas":"4 puertas",
+  "pasajeros":"5 pasajeros",
+  "baul":"Baúl amplio",
+  "Stereo":"Stereo",
+  "bluetooth":"Bluetooth",
+  "gps":"Gps",
+  "image": "https://i2.wp.com/tiempomotor.com/wp-content/uploads/2015/11/ford_ecosport_india_1_0.jpg?fit=960%2C601&ssl=1&resize=1280%2C720",
+  "adicional": "Silla para bebé"
+
+},
+{
+
+  "id": 5,
+  "nombre": "Fiat Toro",
+  "caja": "Caja automática",
+  "tipo": "4x4",
+  "aire":"Aire acondicionado",
+  "direccion":"Dirección hidrulica",
+  "alarma":"Alarma con cierre centralizado",
+  "cristales":"Levanta cristales",
+  "puertas":"4 puertas",
+  "pasajeros":"5 pasajeros",
+  "baul":"Baúl amplio",
+  "Stereo":"Stereo",
+  "bluetooth":"Bluetooth",
+  "gps":"Gps",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbet6p15UZ61JZ4a14P-NfiSwj4VJbxOUSUg&usqp=CAU",
+  "adicional": "Silla para bebé"
+
+},
+{
+
+  "id": 6,
+  "nombre": "Volkswagen Amarok",
+  "caja": "Caja automática",
+  "tipo": "4x4",
+  "aire":"Aire acondicionado",
+  "direccion":"Dirección hidrulica",
+  "alarma":"Alarma con cierre centralizado",
+  "cristales":"Levanta cristales",
+  "puertas":"4 puertas",
+  "pasajeros":"5 pasajeros",
+  "baul":"Baúl amplio",
+  "Stereo":"Stereo",
+  "bluetooth":"Bluetooth",
+  "gps":"Gps",
+  "image": "https://rodatiautos.ar/images/listings/2022-10/3d23bb36-1665920902-618.jpg",
+  "adicional": "Silla para bebé"
+
+}
+
+]

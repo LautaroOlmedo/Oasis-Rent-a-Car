@@ -1,0 +1,12 @@
+.logo-detail{
+    margin-top: 100px;
+}
+
+.bg-detail{
+    background-image: url(../../media/img-home-nuevo.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;
+    background-size: cover; */
+    overflow-x: hidden !important;
+    background-size: cover;
+}

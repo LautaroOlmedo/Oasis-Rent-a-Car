@@ -1,37 +1,19 @@
-.homeContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 80vh;
+/* .inicio {
   width: 100%;
-  object-fit: contain;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
+  background: url(../../media/fondoInicio.jpeg);
+} */
+
+
+
+.bg-home{
+  background-image: url(../../media/img-home-nuevo.png);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed;
+  background-size: cover; */
+  overflow-x: hidden !important;
+  background-size: contain;
+
 }
 
-.video {
-  height: 80vh;
-  width: 100%;
-  object-fit: cover;
-  position: absolute;
-  z-index: -1;
-}
 
-.homeContainer > h1 {
-  font-size: 80px;
-  color: #fff;
-}
 
-.homeContainer > h1::selection {
-  background: none;
-}
-
-.homeContainer > p {
-  font-size: 28px;
-  margin-top: 10px;
-  color: #fff;
-}
-
-.homeContainer > p::selection {
-  background: none;
-}

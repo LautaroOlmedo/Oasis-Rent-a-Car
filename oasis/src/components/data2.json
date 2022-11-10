@@ -1,0 +1,111 @@
+[
+    
+{
+    "id": 1,
+    "name": "Chevrolet onix",
+    "air": "air conditioning", 
+    "hydraulic": "hydraulic steering", 
+    "central": "central locking alarm", 
+    "raise": "raise crystals", 
+    "doors": "4 doors", 
+    "passengers": "5 passengers", 
+    "trunk": "spacious trunk", 
+    "Stereo": "Stereo", 
+    "bluetooth": "bluetooth", 
+    "gps": "gps",
+    "aditional": "baby's chair"
+
+},
+
+{
+    "id": 2,
+    "name": "Fiat cronos",
+    "air": "air-conditioning", 
+    "hydraulic": "hydraulic steering", 
+    "central": "central locking alarm", 
+    "raise": "raise crystals", 
+    "doors": "4 doors", 
+    "passengers": "5 passengers", 
+    "trunk": "spacious trunk", 
+    "Stereo": "Stereo", 
+    "bluetooth": "bluetooth", 
+    "gps": "gps",
+    "aditional": "baby's chair"
+    
+},
+
+{
+    "id": 3,
+    "name": "Volswagen suran",
+    "air": "air-conditioning", 
+    "hydraulic": "hydraulic steering", 
+    "central": "central locking alarm", 
+    "raise": "raise crystals", 
+    "doors": "4 doors", 
+    "passengers": "5 passengers", 
+    "trunk": "spacious trunk", 
+    "Stereo": "Stereo", 
+    "bluetooth": "bluetooth", 
+    "gps": "gps",
+    "aditional": "baby's chair"
+
+},
+
+{
+
+    "id": 4,
+    "name": "Ford ecosport",
+    "air": "air-conditioning", 
+    "hydraulic": "hydraulic steering", 
+    "central": "central locking alarm", 
+    "raise": "raise crystals", 
+    "doors": "4 doors", 
+    "passengers": "5 passengers", 
+    "trunk": "spacious trunk", 
+    "Stereo": "Stereo", 
+    "bluetooth": "bluetooth", 
+    "gps": "gps",
+    "aditional": "baby's chair"
+
+},
+
+{
+    "id": 5,
+    "name": "Fiat toro",
+    "air": "air conditioning", 
+    "4x4": "4x4",
+    "automatic": "automatic gearbox",
+    "hydraulic": "hydraulic steering", 
+    "central": "central locking alarm", 
+    "raise": "raise crystals", 
+    "doors": "4 doors", 
+    "passengers": "5 passengers", 
+    "trunk": "spacious trunk", 
+    "Stereo": "Stereo", 
+    "bluetooth": "bluetooth", 
+    "gps": "gps",
+    "aditional": "baby's chair"
+    
+},
+
+{
+
+    "id": 6,
+    "name": "Volkswagen amarok",
+    "air": "air-conditioning", 
+    "4x4": "4x4",
+    "automatic": "automatic gearbox",
+    "hydraulic": "hydraulic steering", 
+    "central": "central locking alarm", 
+    "raise": "raise crystals", 
+    "doors": "4 doors", 
+    "passengers": "5 passengers", 
+    "trunk": "spacious trunk", 
+    "Stereo": "Stereo", 
+    "bluetooth": "bluetooth", 
+    "gps": "gps",
+    "aditional": "baby's chair"
+    
+}
+
+]
