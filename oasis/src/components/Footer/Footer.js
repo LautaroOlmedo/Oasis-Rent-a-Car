@@ -7,7 +7,7 @@ import {langContext} from '../../context/lanContext'
 function Footer() {
   return (
 
-    <footer className='row p-5 pb-2 bg-black mt-5 justify-content-around mx-0 position-relative fixed-bottom'>
+    <footer className='row p-5 pb-2 bg-black justify-content-around mx-0 position-relative fixed-bottom'>
       <div className='col-md-3 text-center'>
         <div className='text-white'>
           <h5 className='text-uppercase font-weight-light text-white mb-3'>
@@ -45,7 +45,7 @@ function Footer() {
           </li>
         </div>
       </div>
-      <div class='col-xs-12 pt-3'>
+      <div class='col-xs-12 pt-5'>
       <p class="text-center text-muted text-light">Copyright © 2022 Oasis.</p>
       </div>
       <hr/>

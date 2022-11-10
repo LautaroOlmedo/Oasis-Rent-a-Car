@@ -21,7 +21,7 @@ function Cards() {
           return(
             <div key={index} className="col mb-5">
               <center>
-                <div className="card" style={{height: '450px', width: '400px', background: 'white'}}>
+                <div className="card" style={{height: '420px', width: '350px', background: 'white'}}>
                   {
                     el.image ? <img src={el.image} class="card-img-top img-fluid" alt='not found'/> 
                     : null
