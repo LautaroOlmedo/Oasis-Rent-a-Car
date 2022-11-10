@@ -8,7 +8,7 @@ const LangProvider = ({children}) =>{
     const [mensajes, establecerMensajes] = useState(SpanishMessage);
     const [locale, establecerLocale] = useState('es-ES');
     const establecerLenguaje = (lenguaje) =>{
-        console.log('cambiando el lenguaje a ' + lenguaje);
+        
         switch(lenguaje){
             case 'es-ES':
                 establecerMensajes(SpanishMessage)
