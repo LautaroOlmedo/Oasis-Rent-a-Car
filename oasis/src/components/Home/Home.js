@@ -21,7 +21,7 @@ function Home() {
     <div >
       <NavBar />
         
-      <p class="fw-bolder fs-5 card-body w-50 position-absolute bottom-50 end-50"><FormattedMessage id='landing.Description'/></p>
+      <p class="fw-bolder fs-5 card-body w-50 d-none d-md-block position-absolute bottom-50 end-50"><FormattedMessage id='landing.Description'/></p>
       <div class='bg-home'>
       <img src={negroOasis} class="card-img-top w-25 ms-5 top-0 start-50 mt-1" alt="..."/>
       
@@ -32,7 +32,7 @@ function Home() {
         <img src={petFriendly}  alt="..."/ >
   
       </div>
-      <h5 class='w-50 mb-5' style={{fontSize: '25px', margin: '20px 0'}}>
+      <h5 class='w-50  mb-5' style={{fontSize: '25px', margin: '20px 0'}}>
         <FormattedMessage id='home.pets'/>
        </h5>
       </center>

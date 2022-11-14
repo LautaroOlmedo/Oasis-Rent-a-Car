@@ -27,7 +27,7 @@ export default function Detail(){
                    </p>
                 </span>
                 <hr/>
-          <div class='calendario-detail position-absolute top-50 start-50 '>
+          <div class='calendario-detail col-xs-6 position-absolute top-50 start-50 '>
           <Calendarr />
           </div>
                 <span class='col-lg-12 pl-0 pr-0' >
@@ -109,7 +109,7 @@ export default function Detail(){
           {/* <iframe href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26804.498539547658!2d-68.87602869388779!3d-32.883297940502054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1668040463749!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
           
           <Link to={'/home'}>
-                  <a type="button" className="ms-4 mt-3 btn btn-lg btn-dark "><FormattedMessage id='detail.Home' defaultMessage={'Home'}/></a>
+                  <a type="button" className="ms-4 mt-3 btn btn-lg btn btn-outline-secondary "><FormattedMessage id='detail.Home' defaultMessage={'Home'}/></a>
           </Link>
           
           </div>

@@ -26,3 +26,27 @@
   
   top: 95px;
 }
+ /* @media screen and (min-width:1440px ){
+  .card-body{
+    left: 600px;
+    height: 40px;
+    width: 200px;
+    
+  }
+ } */
+
+
+ @media screen and (max-width:376px ){
+  .card-body{
+    left: 180px;
+    height: 100px;
+  }
+ }
+
+
+ @media screen and (max-width:769px ){
+  .card-body{
+    left: 280px;
+    background-size: cover;
+  }
+ }
