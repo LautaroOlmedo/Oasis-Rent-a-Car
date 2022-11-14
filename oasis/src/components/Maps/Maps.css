@@ -1,0 +1,9 @@
+.map-container {
+    width: 60%;
+    height: 400px;
+    left: 300px;
+  }
+  
+  .ubicacion h2 {
+    color: #fff;
+  }

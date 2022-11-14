@@ -17,7 +17,7 @@
 }
 
 .calendario-home{
- margin-left: 502px;
+ margin-left: 600px;
 }
 
 .card-body{
@@ -50,3 +50,7 @@
     background-size: cover;
   }
  }
+ 
+.imagePerro{
+  margin-left: 60px;
+}

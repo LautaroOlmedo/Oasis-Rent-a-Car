@@ -12,6 +12,9 @@ import EnglishMessage from '../../lang/en-US.json'
 import SpanishMessage from '../../lang/es-ES.json'
 import { langContext } from '../../context/lanContext'
 import Calendarr from '../Calendar/Calendar'
+import Maps from '../Maps/Maps'
+
+
 function Home() {
   
   const idioma = useContext(langContext);
@@ -27,22 +30,23 @@ function Home() {
       
       {<Cards />}
       
-      <center >
-      <div>
-        <img src={petFriendly}  alt="..."/ >
-  
+
+     
+     
+
+
+      <div className='imagePerro'>
+        <img src={petFriendly} height={"350px"} alt="..." />
       </div>
-      <h5 class='w-50  mb-5' style={{fontSize: '25px', margin: '20px 0'}}>
+      </div>
+      <div>
+      <h5 className='w-50 mb-5' style={{fontSize: '25px', margin: '-224px 0px 0px 750px', marginLeft: '700px'}}>
         <FormattedMessage id='home.pets'/>
        </h5>
-      </center>
-      <div class='calendario-home'>
-      <Calendarr />
       </div>
-      </div>
-      
-     
-     
+      <br /><br /><br /><br /><br /><br /><br />
+      <Maps />
+
       <Footer />
       </div>
       )
