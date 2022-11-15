@@ -2,10 +2,11 @@ import React from 'react'
 import { useMemo } from 'react'
 import './Maps.css'
 import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api'
+const {KEY} = process.env
 
 function Maps() {
   const {isLoaded} = useLoadScript({
-    googleMapsApiKey: "AIzaSyA9yKXiVOr1nhz0BgYaI84jwkNJrhIXy8M"
+    googleMapsApiKey: KEY
   })
 
   if(!isLoaded) return <div>Loading...</div>
