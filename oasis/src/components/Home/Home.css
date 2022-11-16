@@ -3,27 +3,20 @@
   background: url(../../media/fondoInicio.jpeg);
 } */
 
-
-
-.bg-home{
-  background-image: url(../../media/img-home-nuevo.png);
-  background-repeat: no-repeat;
-  /* background-attachment: fixed;
-  background-size: cover; */
-  overflow-x: hidden !important;
-  background-size: contain;
-  font-family: sans-serif;
-
+.text-pet{
+  position: relative;
+  left: 180px;
+  top: -55px;
 }
 
-.calendario-home{
+
+
+/* .calendario-home{
  margin-left: 600px;
-}
+} */
 
 .card-body{
-
   left: 600px;
-  
   top: 95px;
 }
  /* @media screen and (min-width:1440px ){
@@ -36,21 +29,163 @@
  } */
 
 
- @media screen and (max-width:376px ){
-  .card-body{
-    left: 180px;
-    height: 100px;
+ @media screen and (max-width:375px ){
+  .reseña{
+    display: none;
   }
- }
+  .text-pet{
+   display: none;
+    
 
-
- @media screen and (max-width:769px ){
-  .card-body{
-    left: 280px;
-    background-size: cover;
   }
- }
+  .maps-google{
+    position: relative;
+    left: -225px;
+    top: -200px;
+    
+  }
+  .cards{
+    position: relative;
+    right: 100px;
+    left: -50px;
+  }
  
-.imagePerro{
-  margin-left: 60px;
+ }
+
+
+ 
+ @media screen and (max-width:425px ){
+   .text-pet{
+   display: none;
+     
+    }
+    .reseña{
+      position: relative;
+      bottom: 40px;
+      top: 10px;
+      margin-left: -240px;
+    }
+    .maps-google{
+      position: relative;
+     left: -220px;
+    
+    }
+    .cards{
+      position: relative;
+      right: 25px;
+      top: 100px;
+      bottom: 100px;
+
+    }
+    .imagePerro{
+      margin-top: 100px;
+    }
+  }
+  
+  @media screen and (max-width:768px ){
+    .maps-google{
+      position: relative;
+      top: 50px;
+      bottom: 100px;
+      margin-bottom: 150px;
+      right: 155px;
+    }
+    .text-pet{
+      position: absolute;
+      left: -450px;
+      top: 4000px;
+      font-size: 150px;
+    }
+    .reseña{
+    position: relative;
+    bottom: 40px;
+    width: 800px;
+    left: -350px;
+  }
+  /* .bg-home{
+    background-size: auto;
+  } */
+  .cards{
+    position: relative;
+    margin-top: 250px;
+    
+  }
+  .imagePerro{
+
+  }
+  .bg-home{
+    background-image: url(../../media/img-home-nuevo.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;
+    background-size: cover; */
+    overflow-x: hidden !important;
+    background-size: contain;
+    font-family: sans-serif;
+  
+  }
 }
+
+@media screen and (max-width:1024px ){
+  .bg-home{
+    background-image: url(../../media/img-home-nuevo.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;
+    background-size: cover; */
+    overflow-x: hidden !important;
+    background-size: contain;
+    font-family: sans-serif;
+  
+  }
+  .reseña{
+    position: relative;
+    right: 200px;
+    bottom: 50px;
+  }
+  .text-pet{
+    left: -300px;
+    top: 250px;
+  }
+  .maps-google{
+    position: relative;
+    margin-top: 100px;
+    right: 100px;
+  }
+}
+@media screen and (max-width:1024px ){
+  .bg-home{
+    background-image: url(../../media/img-home-nuevo.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;
+    background-size: cover; */
+    overflow-x: hidden !important;
+    background-size: contain;
+    font-family: sans-serif;
+}
+
+}
+@media screen and (max-width:1440px ){
+  .bg-home{
+    background-image: url(../../media/img-home-nuevo.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;
+    background-size: cover; */
+    overflow-x: hidden !important;
+    background-size: contain;
+    font-family: sans-serif;
+}
+
+}
+
+
+
+
+/* @media screen and (max-width:769px ){
+ .card-body{
+   left: 280px;
+   background-size: cover;
+ }
+}
+
+.imagePerro{
+ margin-left: 60px;
+} */

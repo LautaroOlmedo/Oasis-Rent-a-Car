@@ -23,29 +23,28 @@ function Home() {
     
     <div >
       <NavBar />
-        
-      <p class="fw-bolder fs-5 card-body w-50 d-none d-md-block position-absolute bottom-50 end-50"><FormattedMessage id='landing.Description'/></p>
+        <div class='reseña'>
+      <p class="fw-bolder fs-5 card-body w-50 d-md-block position-absolute bottom-50 end-50"><FormattedMessage id='landing.Description'/></p>
+        </div>
       <div class='bg-home'>
-      <img src={negroOasis} class="card-img-top w-25 ms-5 top-0 start-50 mt-1" alt="..."/>
+      <img src={negroOasis} class="img-car card-img-top w-25 ms-5 top-0 start-50 mt-1" alt="..."/>
+      <div class='cards'>
+         {<Cards />}
+      </div>
       
-      {<Cards />}
-      
-
-     
-     
-
-
       <div className='imagePerro'>
-        <img src={petFriendly} height={"350px"} alt="..." />
+        <img src={petFriendly} height={"350px"} alt="..." class='img-fluid'/>
       </div>
       </div>
-      <div>
-      <h5 className='w-50 mb-5' style={{fontSize: '25px', margin: '-224px 0px 0px 750px', marginLeft: '700px'}}>
+      <div class='text-pet'>
+      <h5 className='w-25' style={{fontSize: '25px', margin: '-224px 0px 0px 670px', marginLeft: '700px'}}>
         <FormattedMessage id='home.pets'/>
        </h5>
       </div>
       <br /><br /><br /><br /><br /><br /><br />
+      <div class='maps-google'>
       <Maps />
+      </div>
 
       <Footer />
       </div>

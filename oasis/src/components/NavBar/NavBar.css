@@ -13,6 +13,46 @@
   margin-left: 50;
   margin-top: 10px;
 }
+
+@media screen and (max-width:375px ){
+  .banderas{
+    position: relative;
+    top: -4px;
+    right: -30px;
+  }
+
+  .nav-item{
+    display: none;
+  }
+  .icon{
+    margin: 15px;
+  }
+}
+
+
+@media screen and (max-width:425px ){
+.maps{
+  position: relative;
+  left: -250px;
+}
+.nav-item{
+  display: none;
+}
+.banderas{
+  position: relative;
+  top: -4px;
+  right: -30px;
+}
+.icon{
+  margin: 15px;
+}
+}
+
+
+
+
+
+
 /* .container {
   width: 100%;
   height: 70px;
