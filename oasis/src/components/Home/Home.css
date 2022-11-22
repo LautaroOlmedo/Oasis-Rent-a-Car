@@ -16,6 +16,17 @@
 
 }
 
+.contenedor-parrafo {
+  display: flex;
+}
+
+.parrafo-home {
+  position: absolute;
+  margin-top: 34px;
+  left: 450px;
+  font-weight: bold;
+}
+
 .calendario-home{
  margin-left: 600px;
 }
@@ -28,4 +39,24 @@
 }
 .imagePerro{
   margin-left: 60px;
+}
+
+@media screen and (max-width: 840px) {
+  .parrafo-home {
+    position: relative;
+    margin: 10px 30px;
+    left: 0;
+    padding-top: 230px;
+  }
+  .bg-home {
+    margin-top: -346px;
+  }
+
+  .cartas {
+    margin-top: 200px;
+  }
+}
+
+@media screen and () {
+  
 }
