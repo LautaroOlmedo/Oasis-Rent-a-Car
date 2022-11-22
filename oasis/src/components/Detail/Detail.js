@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import data from '../data.json'
 import { useParams } from "react-router-dom";
@@ -6,8 +6,7 @@ import negroOasis from '../../media/negroOasis.png'
 import Footer from "../Footer/Footer";
 import './Detail.css'
 import {FormattedMessage} from 'react-intl'
-import { langContext } from "../../context/lanContext";
-import Calendarr from "../Calendar/Calendar";
+import NavBar from "../NavBar/NavBar";
 
 
 export default function Detail(){
@@ -16,7 +15,7 @@ export default function Detail(){
   let filter = data && data.filter(el => el.id == id)
     return(
         <div>
-          
+          <NavBar />
           <div className='bg-detail'>
             <img src={negroOasis} className="card-img-top w-25 ms-5 top-0 start-50 mt-1" alt="..."/>
           </div>
@@ -28,7 +27,7 @@ export default function Detail(){
                 </span>
                 <hr/>
           <div className='calendario-detail position-absolute top-50 start-50 '>
-          <img src={filter[0].image} height={'450px'} width={'750px'}/>
+          <img src={filter[0].image} height={'450px'} width={'750px'} alt="imagen"/>
           </div>
                 <span className='col-lg-12 pl-0 pr-0' >
                   <p className='d-flex mb-0'>
@@ -106,10 +105,9 @@ export default function Detail(){
           
           </center>
           <div>
-          {/* <iframe href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26804.498539547658!2d-68.87602869388779!3d-32.883297940502054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1668040463749!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
           
           <Link to={'/home'}>
-                  <a type="button" className="ms-4 mt-3 btn btn-lg btn-dark "><FormattedMessage id='detail.Home' defaultMessage={'Home'}/></a>
+                  <button type="button" className="ms-4 mt-3 btn btn-lg btn-dark "><FormattedMessage id='detail.Home' defaultMessage={'Home'}/></button>
           </Link>
           
           </div>

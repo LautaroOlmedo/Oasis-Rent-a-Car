@@ -1,7 +1,6 @@
 import React, {useContext} from 'react'
 import './Cards.css'
 import data from '../data.json'
-import englishData from '../data2.json'
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {langContext} from '../../context/lanContext'
@@ -11,7 +10,6 @@ import {FormattedMessage} from 'react-intl'
 function Cards() {
   let idioma = useContext(langContext)
   const data1 = data
-  const data2 = englishData
   console.log(idioma);
 
   return (
@@ -40,11 +38,10 @@ function Cards() {
                     {
                       <center>
                       <Link to={'/home/' + el.id}>
-                      <a type="button" className=" btn btn-dark btn-sm "><FormattedMessage id='card.Detail' defaultMessage={'Detail'}/></a>
+                      <button type="button" className=" btn btn-dark btn-sm "><FormattedMessage id='card.Detail' defaultMessage={'Detail'}/></button>
                     </Link>
                     </center>
-                    }
-                    
+                    } 
                   </div>
                 </div>
               </center>

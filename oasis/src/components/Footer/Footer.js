@@ -2,7 +2,6 @@ import React from 'react'
 import './Footer.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {FormattedMessage} from 'react-intl'
-import {langContext} from '../../context/lanContext'
 
 function Footer() {
   return (
