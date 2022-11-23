@@ -33,19 +33,19 @@ function Footer() {
         <h5 className='text-uppercase font-weight-light text-light mb-3'>
         <FormattedMessage id='footer.Follow' defaultMessage={'FOLLOW US ON THE NETWORKS!'}/>
         </h5>
-        <div className=''>
+        <div>
           {/* <FontAwesomeIcon icon={'fa-brands fa-facebook'} className='h2 me-4' style={{ color: '#11154B' }}/> */}
           
-          <a class="" aria-current="page" href="https://www.instagram.com/oasis.rentacarmza/" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={"fa-brands fa-square-instagram" } className='h2 me-4' style={{ color: 'DodgerBlue' }}/></a>
+          <a aria-current="page" href="https://www.instagram.com/oasis.rentacarmza/" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={"fa-brands fa-square-instagram" } className='h2 me-4' style={{ color: 'DodgerBlue' }}/></a>
         
           
-             <a class="" aria-current="page" href="https://api.whatsapp.com/send?phone=2617743816" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={"fa-brands fa-square-whatsapp" } className='h2 ' style={{ color: 'DodgerBlue' }}/></a>
+             <a aria-current="page" href="https://api.whatsapp.com/send?phone=2617743816" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={"fa-brands fa-square-whatsapp" } className='h2 ' style={{ color: 'DodgerBlue' }}/></a>
              
         
         </div>
       </div>
-      <div class='col-xs-12 pt-5'>
-      <p class="text-center text-muted text-light">Copyright © 2022 Oasis.</p>
+      <div className='col-xs-12 pt-5'>
+      <p className="text-center text-muted text-light">Copyright © 2022 Oasis.</p>
       </div>
     </footer>
 

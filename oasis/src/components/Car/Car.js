@@ -28,10 +28,10 @@ function Car() {
                     </div>
                     <hr />
                   
-                    <p><FontAwesomeIcon icon="fa-solid fa-user" class='me-2 h2' style={{height: '17px'}}/> <FormattedMessage id='card.EnglishDataPassengers' defaultMessage={"5 passengers"}/></p>
+                    <p><FontAwesomeIcon icon="fa-solid fa-user" className='me-2 h2' style={{height: '17px'}}/> <FormattedMessage id='card.EnglishDataPassengers' defaultMessage={"5 passengers"}/></p>
                   
                 
-                     <p><FontAwesomeIcon icon="fa-solid fa-briefcase" class='' style={{height: '17px'}}/>&nbsp;&nbsp;&nbsp;<FormattedMessage id='card.Trunk' defaultMessage={"spacious trunk"}/></p>
+                     <p><FontAwesomeIcon icon="fa-solid fa-briefcase" className='' style={{height: '17px'}}/>&nbsp;&nbsp;&nbsp;<FormattedMessage id='card.Trunk' defaultMessage={"spacious trunk"}/></p>
                   
                     {
                     <div>
