@@ -2,7 +2,6 @@ import React from 'react'
 import './Footer.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {FormattedMessage} from 'react-intl'
-import {langContext} from '../../context/lanContext'
 
 function Footer() {
   return (
@@ -14,8 +13,8 @@ function Footer() {
           <FormattedMessage id='footer.Atention' defaultMessage={'Public attention'}/>
           </h5>
           <FontAwesomeIcon icon={['fas', 'phone-alt']} className='h2' style={{ color: 'DodgerBlue' }}/>
-          <p>+54 2617 74 3816</p>
-          <p>+54 9 2615 12-1525</p>
+          <p>+54 9 261 512-1525</p>
+          <p>+54 9 261 667-6382</p>
           <p>oasisrentacarmza@gmail.com</p>
         </div>
       </div>
@@ -40,7 +39,7 @@ function Footer() {
           <a class="" aria-current="page" href="https://www.instagram.com/oasis.rentacarmza/" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={"fa-brands fa-square-instagram" } className='h2 me-4' style={{ color: 'DodgerBlue' }}/></a>
         
           
-             <a class="" aria-current="page" href="https://api.whatsapp.com/send?phone=2617743816" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={"fa-brands fa-square-whatsapp" } className='h2 me-4' style={{ color: 'DodgerBlue' }}/></a>
+             <a class="" aria-current="page" href="https://api.whatsapp.com/send?phone=2617743816" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={"fa-brands fa-square-whatsapp" } className='h2 ' style={{ color: 'DodgerBlue' }}/></a>
              
         
         </div>
@@ -48,7 +47,6 @@ function Footer() {
       <div class='col-xs-12 pt-5'>
       <p class="text-center text-muted text-light">Copyright © 2022 Oasis.</p>
       </div>
-      <hr/>
     </footer>
 
     )

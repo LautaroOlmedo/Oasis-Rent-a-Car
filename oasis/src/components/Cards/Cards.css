@@ -1,10 +1,15 @@
-.row{
-    margin-top: 7%;
+.movieGrid {
+  display: grid;
+  /* forma columns auto con un ancho de 230px */
+  grid-template-columns: repeat(auto-fill, 230px);
+  /* espacio entre img */
+  gap: 40px;
+  padding: 40px;
+  justify-content: center;
 }
 
-.icon-user{
-    margin-right: 200px;
-    bottom: 200px;
-    
-    
+@media screen and (max-width: 560px) {
+  .movieGrid {
+    grid-template-columns: 100%;
+  } 
 }

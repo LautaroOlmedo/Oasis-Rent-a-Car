@@ -1,0 +1,38 @@
+.movieGrid {
+  display: grid;
+  /* forma columns auto con un ancho de 230px */
+  grid-template-columns: repeat(auto-fill, 430px);
+  /* espacio entre img */
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 560px) {
+  .movieGrid {
+    grid-template-columns: 100%;
+  } 
+}
+
+.movieCard {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.movieImage {
+  border-radius: 10px;
+  background-color: azure;
+  object-fit: cover;
+}
+
+.carTitulo {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 589px) {
+  .movieImage {
+    width: 90%;
+    height: auto;
+  } 
+}
