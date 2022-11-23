@@ -8,26 +8,28 @@ import './Detail.css'
 import {FormattedMessage} from 'react-intl'
 import NavBar from "../NavBar/NavBar";
 
-
 export default function Detail(){
   const {id} = useParams(); 
  
   let filter = data && data.filter(el => el.id == id)
     return(
-        <div>
+<div>
           <NavBar />
           <div className='bg-detail'>
             <img src={negroOasis} className="card-img-top w-25 ms-5 top-0 start-50 mt-1" alt="..."/>
           </div>
           <center className='ms-4 mt-5 col-lg-10 pl-0 pull-left'>
+            <div className="contenedor-imagen">
+              <img className="imagen-detail" src={filter[0].image} alt="imagen"/>
+            </div>
+            <br /><br />
           <span className='col-lg-12 pl-0 pr-0' >
                   <p className='d-flex mb-0'>
                     <h3 className='ms-3 fw-bold'>{filter[0].nombre}</h3>
                    </p>
                 </span>
                 <hr/>
-          <div className='calendario-detail position-absolute top-50 start-50 '>
-          <img src={filter[0].image} height={'450px'} width={'750px'} alt="imagen"/>
+          <div className='position-absolute top-50 start-50 '>
           </div>
                 <span className='col-lg-12 pl-0 pr-0' >
                   <p className='d-flex mb-0'>
@@ -107,11 +109,11 @@ export default function Detail(){
           <div>
           
           <Link to={'/home'}>
-                  <button type="button" className="ms-4 mt-3 btn btn-lg btn-dark "><FormattedMessage id='detail.Home' defaultMessage={'Home'}/></button>
+                  <button type="button" className="boton-inicio ms-4 mt-3 btn btn-lg btn-dark "><FormattedMessage id='detail.Home' defaultMessage={'Home'}/></button>
           </Link>
-          
           </div>
+          <br />
           <Footer />
-        </div>
+        </div>    
     );
 };

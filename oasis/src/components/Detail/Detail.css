@@ -1,7 +1,3 @@
-.logo-detail{
-    margin-top: 100px;
-}
-
 .bg-detail{
     background-image: url(../../media/img-home-nuevo.png);
     background-repeat: no-repeat;
@@ -11,7 +7,38 @@
     background-size: cover;
 }
 
-.calendario-detail{
-    margin-top: 160px;
-    
+.contenedor-imagen {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 100px;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 720px) {
+  h5 {
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (max-width: 497px) {
+    h5 {
+      font-size: 14px;
+    }
+  }
+
+@media screen and (max-width: 400px) {
+    h5 {
+        font-size: 12px;
+    }
+
+    .boton-inicio {
+        font-size: 10px;
+        height: 30px;
+        width: 70px;
+    }
 }

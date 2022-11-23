@@ -1,13 +1,16 @@
-/* .inicio {
-  width: 100%;
-  background: url(../../media/fondoInicio.jpeg);
-} */
-
-.bg-home{
+.bg-home1 {
   background-image: url(../../media/img-home-nuevo.png);
   background-repeat: no-repeat;
   /* background-attachment: fixed;
   background-size: cover; */
+  overflow-x: hidden !important;
+  background-size: cover;
+}
+
+.bg-home{
+  background-image: url(../../media/img-home-nuevo.png);
+  width: 100%;
+  background-repeat: no-repeat;
   overflow-x: hidden !important;
   background-size: contain;
   font-family: sans-serif;
@@ -15,25 +18,13 @@
 }
 
 .contenedor-parrafo {
-  display: flex;
+  margin: 0 20px;
 }
 
 .parrafo-home {
-  position: absolute;
-  margin-top: 50px;
-  padding-right: 10px;
-  left: 440px;
+  margin-top: 30px;
   font-weight: bold;
-}
-
-@media screen and (max-width: 964px) {
-  .parrafo-home {
-    position: absolute;
-    margin-top: 27px;
-    padding-right: 10px;
-    left: 440px;
-    font-weight: bold;
-  }
+  font-size: 20px;
 }
 
 .calendario-home{
@@ -67,63 +58,20 @@
   font-size: 18px;
 }
 
-@media screen and (max-width: 840px) {
-  .parrafo-home {
-    position: relative;
-    margin: 10px 30px;
-    left: 0;
-    padding-top: 230px;
-  }
 
-  .bg-home {
-    margin-top: -346px;
-  }
-
-  .cartas {
-    margin-top: 200px;
-  }
-}
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
   .imagen-perro {
     width: 500px;
     height: 280px;
   }
 
-  .imagen-home {
-    display: flex;
-    justify-content: center;
-  }
-  
-}
-
-@media screen and (max-width: 743px) {
   .parrafo-home {
-    margin-top: -14px;
+    font-size: 16px;
   }
 }
 
-@media screen and (max-width: 628px) {
-  .parrafo-home {
-    margin-top: -48px;
-    padding-bottom: 10px;
-  }
-}
-
-@media screen and (max-width: 530px) {
-  .parrafo-home {
-    margin-top: -82px;
-    padding-bottom: 20px;
-  }
-}
 
 @media screen and (max-width: 497px) {
-  .parrafo-home {
-    margin-top: -55px;
-    padding-bottom: 35px;
-    font-size: 14px;
-  }
-
   .imagen-perro {
     width: 320px;
     height: 170px;
@@ -132,27 +80,12 @@
   .texto-perro {
     text-align: center;
     margin: 25px 10px;
-    font-size: 16px;
-  }
-
-  .cartas {
-    padding-top: 1px;
-    margin-left: -15px;
+    font-size: 14px;
   }
 }
 
-@media screen and (max-width: 473px) {
-  .bg-home {
+@media screen and (max-width: 400px) {
+  .parrafo-home {
+    font-size: 12px;
   }
 }
-
-@media screen and (max-width: 416px) {
-  .cartas {
-    margin-left: -25px;
-  }
-}
-
-
-/* @media only screen and (min-width: 320px) and (max-width: 743px){
-  
-} */
