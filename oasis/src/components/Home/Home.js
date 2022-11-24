@@ -14,12 +14,12 @@ function Home() {
     <div >
       <NavBar />
       <div className='bg-home1'>
-        <img src={negroOasis} className="card-img-top w-25 ms-5 top-0 start-50 mt-1" alt="..."/>
-      </div>
-      <div className='contenedor-parrafo'>
-        <p className="parrafo-home">
-          <FormattedMessage id='landing.Description'/>
-        </p>
+        <img src={negroOasis} className="imagenLogo w-100 ms-3 mt-1" alt="..."/>
+        <div className='contenedor-parrafo'>
+          <p className="parrafo-home">
+            <FormattedMessage id='landing.Description'/>
+          </p>
+        </div>
       </div>
       <Cards />
       <div className='contenedor-imagenPerro'>
