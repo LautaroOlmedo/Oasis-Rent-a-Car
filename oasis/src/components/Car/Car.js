@@ -10,7 +10,7 @@ import {FormattedMessage} from 'react-intl'
 function Car() {
   let idioma = useContext(langContext)
   const data1 = data
-  console.log(idioma);
+
 
 
   return (
