@@ -6,7 +6,6 @@
   background-size: cover; */
   overflow: hidden !important;
   background-size: cover;
-  width: 100vw;
 }
 
 .bg-detail img {
@@ -17,8 +16,8 @@
 }
 
 .contenedor-imagen {
-  width: 75vw;
   margin-left: -15px;
+  width: 75vw;
   max-width: 1000px;
   min-width: 250px;
 }
