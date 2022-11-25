@@ -13,7 +13,6 @@ function Maps() {
 
   return (
     <div className='ubicacion'>
-      <h2>NUESTRA UBICACION</h2>
       <Map />
     </div>
   )

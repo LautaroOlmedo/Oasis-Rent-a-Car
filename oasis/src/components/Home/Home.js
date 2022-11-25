@@ -15,11 +15,6 @@ function Home() {
       <NavBar />
       <div className='bg-home1'>
         <img src={negroOasis} className="imagenLogo w-100 ms-3 mt-1" alt="..."/>
-        <div className='contenedor-parrafo'>
-          <p className="parrafo-home">
-            <FormattedMessage id='landing.Description'/>
-          </p>
-        </div>
       </div>
       <Cards />
       <div className='contenedor-imagenPerro'>
@@ -30,7 +25,14 @@ function Home() {
           <FormattedMessage id='home.pets'/>
         </h5>
       </div>
+      <div className='contenedor-mapita'>
         <Maps />
+        <div className='contenedor-parrafo'>
+          <p className="parrafo-home">
+            <FormattedMessage id='landing.Description'/>
+          </p>
+        </div>
+      </div>
         <br /> <br />
         <Footer />
     </div>

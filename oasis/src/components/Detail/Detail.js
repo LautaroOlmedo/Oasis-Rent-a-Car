@@ -16,7 +16,7 @@ export default function Detail(){
 <div>
           <NavBar />
           <div className='bg-detail'>
-            <img src={negroOasis} className="card-img-top w-25 ms-5 top-0 start-50 mt-1" alt="..."/>
+            <img src={negroOasis} className="w-100 ms-3 mt-1" alt="..."/>
           </div>
           <center className='ms-4 mt-5 col-lg-10 pl-0 pull-left'>
             <div className="contenedor-imagen">
@@ -108,7 +108,7 @@ export default function Detail(){
           </center>
           <div>
           
-          <Link to={'/home'}>
+          <Link to={'/'}>
                   <button type="button" className="boton-inicio ms-4 mt-3 btn btn-lg btn-dark "><FormattedMessage id='detail.Home' defaultMessage={'Home'}/></button>
           </Link>
           </div>
