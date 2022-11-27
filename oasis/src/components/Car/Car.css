@@ -30,6 +30,10 @@
   margin-top: 15px;
 }
 
+.toTop {
+  top: 0;
+}
+
 @media screen and (max-width: 589px) {
   .movieImage {
     width: 90%;
